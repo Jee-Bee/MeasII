@@ -1,3 +1,3 @@
 {
-    "files": ["main.py","measii_Qt.qmodel","model/measii_Qt.qmodel","src/","ui/mainwindow.ui","ui/","README.md"]
+    "files": ["README.md","model/measii_Qt.qmodel","measii_Qt.qmodel","ui/mainwindow.ui","main.py","src/"]
 }
