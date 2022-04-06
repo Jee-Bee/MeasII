@@ -11433,35 +11433,6 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                        </item>
                                                        <item>
                                                         <handle>
-                                                         <uid>{b40b6a87-c6ee-4f27-a3d3-9fb0d669b7a1}</uid>
-                                                         <target>
-                                                          <instance type="MConnection">
-                                                           <MConnection>
-                                                            <base-MRelation>
-                                                             <MRelation>
-                                                              <base-MElement>
-                                                               <MElement>
-                                                                <uid>{b40b6a87-c6ee-4f27-a3d3-9fb0d669b7a1}</uid>
-                                                               </MElement>
-                                                              </base-MElement>
-                                                              <name>No</name>
-                                                              <a>{95a83836-5e39-403b-b84f-c39a961f0919}</a>
-                                                              <b>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</b>
-                                                             </MRelation>
-                                                            </base-MRelation>
-                                                            <custom-relation>Controlflow</custom-relation>
-                                                            <a>
-                                                             <MConnectionEnd>
-                                                              <navigable>true</navigable>
-                                                             </MConnectionEnd>
-                                                            </a>
-                                                           </MConnection>
-                                                          </instance>
-                                                         </target>
-                                                        </handle>
-                                                       </item>
-                                                       <item>
-                                                        <handle>
                                                          <uid>{77b5ef67-597e-4151-bb25-2ec9ca0fa3cc}</uid>
                                                          <target>
                                                           <instance type="MConnection">
@@ -11522,34 +11493,6 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                       <qlist>
                                                        <item>
                                                         <handle>
-                                                         <uid>{671c11be-5b94-44cd-91f8-aecf41bd1d6e}</uid>
-                                                         <target>
-                                                          <instance type="MConnection">
-                                                           <MConnection>
-                                                            <base-MRelation>
-                                                             <MRelation>
-                                                              <base-MElement>
-                                                               <MElement>
-                                                                <uid>{671c11be-5b94-44cd-91f8-aecf41bd1d6e}</uid>
-                                                               </MElement>
-                                                              </base-MElement>
-                                                              <a>{f72c8df0-8feb-4098-a3cd-0e8fb8a19281}</a>
-                                                              <b>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</b>
-                                                             </MRelation>
-                                                            </base-MRelation>
-                                                            <custom-relation>Controlflow</custom-relation>
-                                                            <a>
-                                                             <MConnectionEnd>
-                                                              <navigable>true</navigable>
-                                                             </MConnectionEnd>
-                                                            </a>
-                                                           </MConnection>
-                                                          </instance>
-                                                         </target>
-                                                        </handle>
-                                                       </item>
-                                                       <item>
-                                                        <handle>
                                                          <uid>{8985e463-3e54-4439-9ec5-3a155b388220}</uid>
                                                          <target>
                                                           <instance type="MConnection">
@@ -11584,92 +11527,6 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                  </base-MObject>
                                                  <variety-editable>false</variety-editable>
                                                  <variety>activity</variety>
-                                                </MItem>
-                                               </instance>
-                                              </target>
-                                             </handle>
-                                            </item>
-                                            <item>
-                                             <handle>
-                                              <uid>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</uid>
-                                              <target>
-                                               <instance type="MItem">
-                                                <MItem>
-                                                 <base-MObject>
-                                                  <MObject>
-                                                   <base-MElement>
-                                                    <MElement>
-                                                     <uid>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</uid>
-                                                    </MElement>
-                                                   </base-MElement>
-                                                   <relations>
-                                                    <handles>
-                                                     <handles>
-                                                      <qlist>
-                                                       <item>
-                                                        <handle>
-                                                         <uid>{3d23b0d8-7318-487b-a839-47dd6b05d16c}</uid>
-                                                         <target>
-                                                          <instance type="MConnection">
-                                                           <MConnection>
-                                                            <base-MRelation>
-                                                             <MRelation>
-                                                              <base-MElement>
-                                                               <MElement>
-                                                                <uid>{3d23b0d8-7318-487b-a839-47dd6b05d16c}</uid>
-                                                               </MElement>
-                                                              </base-MElement>
-                                                              <a>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</a>
-                                                              <b>{ef1b6ab0-aa9c-4cf7-9e7d-dae210b241fe}</b>
-                                                             </MRelation>
-                                                            </base-MRelation>
-                                                            <custom-relation>Controlflow</custom-relation>
-                                                            <a>
-                                                             <MConnectionEnd>
-                                                              <navigable>true</navigable>
-                                                             </MConnectionEnd>
-                                                            </a>
-                                                           </MConnection>
-                                                          </instance>
-                                                         </target>
-                                                        </handle>
-                                                       </item>
-                                                       <item>
-                                                        <handle>
-                                                         <uid>{a21b4ffe-b27a-46a7-bbb1-370d16ac4c01}</uid>
-                                                         <target>
-                                                          <instance type="MConnection">
-                                                           <MConnection>
-                                                            <base-MRelation>
-                                                             <MRelation>
-                                                              <base-MElement>
-                                                               <MElement>
-                                                                <uid>{a21b4ffe-b27a-46a7-bbb1-370d16ac4c01}</uid>
-                                                               </MElement>
-                                                              </base-MElement>
-                                                              <a>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</a>
-                                                              <b>{499e0301-5afd-48d1-8513-3cb80b8f7813}</b>
-                                                             </MRelation>
-                                                            </base-MRelation>
-                                                            <custom-relation>Controlflow</custom-relation>
-                                                            <a>
-                                                             <MConnectionEnd>
-                                                              <navigable>true</navigable>
-                                                             </MConnectionEnd>
-                                                            </a>
-                                                           </MConnection>
-                                                          </instance>
-                                                         </target>
-                                                        </handle>
-                                                       </item>
-                                                      </qlist>
-                                                     </handles>
-                                                    </handles>
-                                                   </relations>
-                                                  </MObject>
-                                                 </base-MObject>
-                                                 <variety-editable>false</variety-editable>
-                                                 <variety>verticalbar</variety>
                                                 </MItem>
                                                </instance>
                                               </target>
