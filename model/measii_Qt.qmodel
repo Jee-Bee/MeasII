@@ -12,7 +12,7 @@
          <uid>{3ff5ef3f-7997-49d2-8051-8756131ff95f}</uid>
         </MElement>
        </base-MElement>
-       <name>pkg_MeasII</name>
+       <name>MeasII</name>
        <children>
         <handles>
          <handles>
@@ -182,6 +182,7 @@
                          <name>TestCases</name>
                          <pos>x:130;y:55</pos>
                          <rect>x:-50;y:-35;w:100;h:70</rect>
+                         <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -369,7 +370,7 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1648407743527</last-modified>
+                  <last-modified>1649081394779</last-modified>
                   <toolbarid>General</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -433,7 +434,7 @@
                                      </qlist>
                                     </stereotypes>
                                     <name>numpy</name>
-                                    <pos>x:80;y:125</pos>
+                                    <pos>x:80;y:205</pos>
                                     <rect>x:-50;y:-35;w:100;h:70</rect>
                                     <visual-role>0</visual-role>
                                    </DObject>
@@ -458,7 +459,7 @@
                                      </qlist>
                                     </stereotypes>
                                     <name>scipy</name>
-                                    <pos>x:222.5;y:125</pos>
+                                    <pos>x:225;y:205</pos>
                                     <rect>x:-50;y:-35;w:100;h:70</rect>
                                     <visual-role>0</visual-role>
                                    </DObject>
@@ -483,7 +484,7 @@
                                      </qlist>
                                     </stereotypes>
                                     <name>matplotlib</name>
-                                    <pos>x:365;y:125</pos>
+                                    <pos>x:365;y:205</pos>
                                     <rect>x:-50;y:-35;w:100;h:70</rect>
                                     <visual-role>0</visual-role>
                                    </DObject>
@@ -500,7 +501,7 @@
                                    </DElement>
                                   </base-DElement>
                                   <text>See potential libraries on: https://numpy.org</text>
-                                  <pos>x:30;y:180</pos>
+                                  <pos>x:30;y:260</pos>
                                   <rect>x:0;y:0;w:247.891;h:29</rect>
                                  </DAnnotation>
                                 </instance>
@@ -522,7 +523,7 @@
                                      </qlist>
                                     </stereotypes>
                                     <name>pysounddevice</name>
-                                    <pos>x:505;y:125</pos>
+                                    <pos>x:505;y:205</pos>
                                     <rect>x:-60;y:-35;w:120;h:70</rect>
                                     <visual-role>0</visual-role>
                                    </DObject>
@@ -547,7 +548,7 @@
                                      </qlist>
                                     </stereotypes>
                                     <name>pySide2 / pyside6</name>
-                                    <pos>x:665;y:125</pos>
+                                    <pos>x:665;y:205</pos>
                                     <rect>x:-65;y:-35;w:130;h:70</rect>
                                     <visual-role>0</visual-role>
                                    </DObject>
@@ -555,9 +556,144 @@
                                  </DPackage>
                                 </instance>
                                </item>
+                               <item>
+                                <instance type="DPackage">
+                                 <DPackage>
+                                  <base-DObject>
+                                   <DObject>
+                                    <base-DElement>
+                                     <DElement>
+                                      <uid>{d3da9637-a9e6-401e-89ba-ffc49aaa8e0c}</uid>
+                                     </DElement>
+                                    </base-DElement>
+                                    <object>{3ff5ef3f-7997-49d2-8051-8756131ff95f}</object>
+                                    <name>MeasII</name>
+                                    <pos>x:365;y:60</pos>
+                                    <rect>x:-50;y:-35;w:100;h:70</rect>
+                                    <visual-role>5</visual-role>
+                                   </DObject>
+                                  </base-DObject>
+                                 </DPackage>
+                                </instance>
+                               </item>
+                               <item>
+                                <instance type="DDependency">
+                                 <DDependency>
+                                  <base-DRelation>
+                                   <DRelation>
+                                    <base-DElement>
+                                     <DElement>
+                                      <uid>{0fb99940-e255-4b05-b416-859a6b845389}</uid>
+                                     </DElement>
+                                    </base-DElement>
+                                    <object>{c42022c2-d9ea-4c93-933b-12d2e1fe773c}</object>
+                                    <stereotypes>
+                                     <qlist>
+                                      <item>import</item>
+                                     </qlist>
+                                    </stereotypes>
+                                    <a>{d3da9637-a9e6-401e-89ba-ffc49aaa8e0c}</a>
+                                    <b>{d98b7364-06b1-4acb-997a-2bcfde4b4340}</b>
+                                   </DRelation>
+                                  </base-DRelation>
+                                 </DDependency>
+                                </instance>
+                               </item>
+                               <item>
+                                <instance type="DDependency">
+                                 <DDependency>
+                                  <base-DRelation>
+                                   <DRelation>
+                                    <base-DElement>
+                                     <DElement>
+                                      <uid>{e1ef79ce-7f2f-471c-9ee9-5af74a4cab9b}</uid>
+                                     </DElement>
+                                    </base-DElement>
+                                    <object>{0d201765-b5bd-4be9-a22a-3c4316cbfacd}</object>
+                                    <stereotypes>
+                                     <qlist>
+                                      <item>import</item>
+                                     </qlist>
+                                    </stereotypes>
+                                    <a>{d3da9637-a9e6-401e-89ba-ffc49aaa8e0c}</a>
+                                    <b>{5f6bc27c-f1ca-465b-86a5-e8b9c93bfe60}</b>
+                                   </DRelation>
+                                  </base-DRelation>
+                                 </DDependency>
+                                </instance>
+                               </item>
+                               <item>
+                                <instance type="DDependency">
+                                 <DDependency>
+                                  <base-DRelation>
+                                   <DRelation>
+                                    <base-DElement>
+                                     <DElement>
+                                      <uid>{480f4269-0d31-4b50-81c1-ee7a1b61fca0}</uid>
+                                     </DElement>
+                                    </base-DElement>
+                                    <object>{4e3098d5-02ec-4ba3-b57f-e53dbe51e513}</object>
+                                    <stereotypes>
+                                     <qlist>
+                                      <item>import</item>
+                                     </qlist>
+                                    </stereotypes>
+                                    <a>{d3da9637-a9e6-401e-89ba-ffc49aaa8e0c}</a>
+                                    <b>{68bbc12c-46b1-4a08-a9bb-048766704562}</b>
+                                   </DRelation>
+                                  </base-DRelation>
+                                 </DDependency>
+                                </instance>
+                               </item>
+                               <item>
+                                <instance type="DDependency">
+                                 <DDependency>
+                                  <base-DRelation>
+                                   <DRelation>
+                                    <base-DElement>
+                                     <DElement>
+                                      <uid>{780e8650-90f2-43b5-aade-7fb31ca5f65e}</uid>
+                                     </DElement>
+                                    </base-DElement>
+                                    <object>{a0f46579-fb0d-4c81-ac06-3be71b6eb8f0}</object>
+                                    <stereotypes>
+                                     <qlist>
+                                      <item>import</item>
+                                     </qlist>
+                                    </stereotypes>
+                                    <a>{d3da9637-a9e6-401e-89ba-ffc49aaa8e0c}</a>
+                                    <b>{cd37f335-827a-4a87-b4e8-d89336b9a776}</b>
+                                   </DRelation>
+                                  </base-DRelation>
+                                 </DDependency>
+                                </instance>
+                               </item>
+                               <item>
+                                <instance type="DDependency">
+                                 <DDependency>
+                                  <base-DRelation>
+                                   <DRelation>
+                                    <base-DElement>
+                                     <DElement>
+                                      <uid>{2d9a847a-4ac5-4cde-8e58-e95945e9faed}</uid>
+                                     </DElement>
+                                    </base-DElement>
+                                    <object>{8036d682-0774-43cc-b574-b41ada5ac3b2}</object>
+                                    <stereotypes>
+                                     <qlist>
+                                      <item>import</item>
+                                     </qlist>
+                                    </stereotypes>
+                                    <a>{d3da9637-a9e6-401e-89ba-ffc49aaa8e0c}</a>
+                                    <b>{935572a6-6781-4e91-a0ae-04b1ddbecae3}</b>
+                                   </DRelation>
+                                  </base-DRelation>
+                                 </DDependency>
+                                </instance>
+                               </item>
                               </qlist>
                              </elements>
-                             <last-modified>1648226343239</last-modified>
+                             <last-modified>1649172131639</last-modified>
                              <toolbarid>General</toolbarid>
                             </MDiagram>
                            </base-MDiagram>
@@ -2180,6 +2316,62 @@ programmer kan sub versie zijn van technical user?</text>
                                               </target>
                                              </handle>
                                             </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{0973ebba-df69-4268-8053-f3649b8d0363}</uid>
+                                              <target>
+                                               <instance type="MConnection">
+                                                <MConnection>
+                                                 <base-MRelation>
+                                                  <MRelation>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{0973ebba-df69-4268-8053-f3649b8d0363}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <a>{643e8b37-d18a-4c47-9ad6-faa3f236cee7}</a>
+                                                   <b>{9a0dcc66-fcf7-4e85-928e-e0d45ef7ce32}</b>
+                                                  </MRelation>
+                                                 </base-MRelation>
+                                                 <custom-relation>Communication</custom-relation>
+                                                 <a>
+                                                  <MConnectionEnd>
+                                                   <navigable>true</navigable>
+                                                  </MConnectionEnd>
+                                                 </a>
+                                                </MConnection>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{82951af6-bca1-43d3-a0c0-9bcb71f432f0}</uid>
+                                              <target>
+                                               <instance type="MConnection">
+                                                <MConnection>
+                                                 <base-MRelation>
+                                                  <MRelation>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{82951af6-bca1-43d3-a0c0-9bcb71f432f0}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <a>{643e8b37-d18a-4c47-9ad6-faa3f236cee7}</a>
+                                                   <b>{46304229-7a9d-4c78-ab02-494be331d1db}</b>
+                                                  </MRelation>
+                                                 </base-MRelation>
+                                                 <custom-relation>Communication</custom-relation>
+                                                 <a>
+                                                  <MConnectionEnd>
+                                                   <navigable>true</navigable>
+                                                  </MConnectionEnd>
+                                                 </a>
+                                                </MConnection>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
                                            </qlist>
                                           </handles>
                                          </handles>
@@ -2762,7 +2954,7 @@ programmer kan sub versie zijn van technical user?</text>
                                                      <uid>{f7c122e0-dfc9-4eab-ac14-a340636a4ed6}</uid>
                                                     </MElement>
                                                    </base-MElement>
-                                                   <name>Data Processing</name>
+                                                   <name>Processing</name>
                                                    <children>
                                                     <handles>
                                                      <handles>
@@ -2782,10 +2974,10 @@ programmer kan sub versie zijn van technical user?</text>
                                                                   <uid>{a4fd6ec6-3d46-41d3-8f78-90f8da4b27af}</uid>
                                                                  </MElement>
                                                                 </base-MElement>
-                                                                <name>Data Processing</name>
+                                                                <name>Processing</name>
                                                                </MObject>
                                                               </base-MObject>
-                                                              <toolbarid>Components</toolbarid>
+                                                              <toolbarid>General</toolbarid>
                                                              </MDiagram>
                                                             </base-MDiagram>
                                                            </MCanvasDiagram>
@@ -2859,6 +3051,121 @@ programmer kan sub versie zijn van technical user?</text>
                                          </MElement>
                                         </base-MElement>
                                         <name>Model</name>
+                                        <children>
+                                         <handles>
+                                          <handles>
+                                           <qlist>
+                                            <item>
+                                             <handle>
+                                              <uid>{1e707571-2051-47ee-bf83-8a26df98642c}</uid>
+                                              <target>
+                                               <instance type="MPackage">
+                                                <MPackage>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{1e707571-2051-47ee-bf83-8a26df98642c}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>Papyrus Model</name>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{166485fe-c424-4c59-b431-03d75774c704}</uid>
+                                                         <target>
+                                                          <instance type="MDependency">
+                                                           <MDependency>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{166485fe-c424-4c59-b431-03d75774c704}</uid>
+                                                                <stereotypes>
+                                                                 <qlist>
+                                                                  <item>optional</item>
+                                                                 </qlist>
+                                                                </stereotypes>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{1e707571-2051-47ee-bf83-8a26df98642c}</a>
+                                                              <b>{a2afdc2c-58f4-4b9a-b8eb-d2a6ec8ddaed}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                           </MDependency>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                </MPackage>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{e7a1adf7-8b29-4d18-973a-046318c2fb09}</uid>
+                                              <target>
+                                               <instance type="MPackage">
+                                                <MPackage>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{e7a1adf7-8b29-4d18-973a-046318c2fb09}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>Qt Model</name>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{ebf8f1d9-ef8b-4550-b3eb-6b17ea5179c2}</uid>
+                                                         <target>
+                                                          <instance type="MDependency">
+                                                           <MDependency>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{ebf8f1d9-ef8b-4550-b3eb-6b17ea5179c2}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{e7a1adf7-8b29-4d18-973a-046318c2fb09}</a>
+                                                              <b>{a2afdc2c-58f4-4b9a-b8eb-d2a6ec8ddaed}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                           </MDependency>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                </MPackage>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                           </qlist>
+                                          </handles>
+                                         </handles>
+                                        </children>
                                        </MObject>
                                       </base-MObject>
                                      </MPackage>
@@ -2995,7 +3302,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                </base-DElement>
                                                <object>{f7c122e0-dfc9-4eab-ac14-a340636a4ed6}</object>
                                                <context>src</context>
-                                               <name>Data Processing</name>
+                                               <name>Processing</name>
                                                <pos>x:360;y:515</pos>
                                                <rect>x:-60;y:-35;w:120;h:70</rect>
                                                <visual-role>0</visual-role>
@@ -3073,6 +3380,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                 </DElement>
                                                </base-DElement>
                                                <object>{e7a1adf7-8b29-4d18-973a-046318c2fb09}</object>
+                                               <context>Model</context>
                                                <name>Qt Model</name>
                                                <pos>x:90;y:515</pos>
                                                <rect>x:-50;y:-35;w:100;h:70</rect>
@@ -3111,6 +3419,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                 </DElement>
                                                </base-DElement>
                                                <object>{1e707571-2051-47ee-bf83-8a26df98642c}</object>
+                                               <context>Model</context>
                                                <name>Papyrus Model</name>
                                                <pos>x:215;y:515</pos>
                                                <rect>x:-60;y:-35;w:120;h:70</rect>
@@ -3150,113 +3459,6 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                        </MDiagram>
                                       </base-MDiagram>
                                      </MCanvasDiagram>
-                                    </instance>
-                                   </target>
-                                  </handle>
-                                 </item>
-                                 <item>
-                                  <handle>
-                                   <uid>{e7a1adf7-8b29-4d18-973a-046318c2fb09}</uid>
-                                   <target>
-                                    <instance type="MPackage">
-                                     <MPackage>
-                                      <base-MObject>
-                                       <MObject>
-                                        <base-MElement>
-                                         <MElement>
-                                          <uid>{e7a1adf7-8b29-4d18-973a-046318c2fb09}</uid>
-                                         </MElement>
-                                        </base-MElement>
-                                        <name>Qt Model</name>
-                                        <relations>
-                                         <handles>
-                                          <handles>
-                                           <qlist>
-                                            <item>
-                                             <handle>
-                                              <uid>{ebf8f1d9-ef8b-4550-b3eb-6b17ea5179c2}</uid>
-                                              <target>
-                                               <instance type="MDependency">
-                                                <MDependency>
-                                                 <base-MRelation>
-                                                  <MRelation>
-                                                   <base-MElement>
-                                                    <MElement>
-                                                     <uid>{ebf8f1d9-ef8b-4550-b3eb-6b17ea5179c2}</uid>
-                                                    </MElement>
-                                                   </base-MElement>
-                                                   <a>{e7a1adf7-8b29-4d18-973a-046318c2fb09}</a>
-                                                   <b>{a2afdc2c-58f4-4b9a-b8eb-d2a6ec8ddaed}</b>
-                                                  </MRelation>
-                                                 </base-MRelation>
-                                                </MDependency>
-                                               </instance>
-                                              </target>
-                                             </handle>
-                                            </item>
-                                           </qlist>
-                                          </handles>
-                                         </handles>
-                                        </relations>
-                                       </MObject>
-                                      </base-MObject>
-                                     </MPackage>
-                                    </instance>
-                                   </target>
-                                  </handle>
-                                 </item>
-                                 <item>
-                                  <handle>
-                                   <uid>{1e707571-2051-47ee-bf83-8a26df98642c}</uid>
-                                   <target>
-                                    <instance type="MPackage">
-                                     <MPackage>
-                                      <base-MObject>
-                                       <MObject>
-                                        <base-MElement>
-                                         <MElement>
-                                          <uid>{1e707571-2051-47ee-bf83-8a26df98642c}</uid>
-                                         </MElement>
-                                        </base-MElement>
-                                        <name>Papyrus Model</name>
-                                        <relations>
-                                         <handles>
-                                          <handles>
-                                           <qlist>
-                                            <item>
-                                             <handle>
-                                              <uid>{166485fe-c424-4c59-b431-03d75774c704}</uid>
-                                              <target>
-                                               <instance type="MDependency">
-                                                <MDependency>
-                                                 <base-MRelation>
-                                                  <MRelation>
-                                                   <base-MElement>
-                                                    <MElement>
-                                                     <uid>{166485fe-c424-4c59-b431-03d75774c704}</uid>
-                                                     <stereotypes>
-                                                      <qlist>
-                                                       <item>optional</item>
-                                                      </qlist>
-                                                     </stereotypes>
-                                                    </MElement>
-                                                   </base-MElement>
-                                                   <a>{1e707571-2051-47ee-bf83-8a26df98642c}</a>
-                                                   <b>{a2afdc2c-58f4-4b9a-b8eb-d2a6ec8ddaed}</b>
-                                                  </MRelation>
-                                                 </base-MRelation>
-                                                </MDependency>
-                                               </instance>
-                                              </target>
-                                             </handle>
-                                            </item>
-                                           </qlist>
-                                          </handles>
-                                         </handles>
-                                        </relations>
-                                       </MObject>
-                                      </base-MObject>
-                                     </MPackage>
                                     </instance>
                                    </target>
                                   </handle>
@@ -3524,7 +3726,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{2cc06dae-c3f5-4ebb-b077-384fdcecc4d7}</object>
                                                           <name>Set soundinterface</name>
-                                                          <pos>x:320;y:205</pos>
+                                                          <pos>x:320;y:235</pos>
                                                           <rect>x:-60;y:-15;w:120;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -3546,7 +3748,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{d2f428ad-34fa-4e10-b1df-2c9ee857130e}</object>
                                                           <name>Set output level</name>
-                                                          <pos>x:320;y:460</pos>
+                                                          <pos>x:320;y:490</pos>
                                                           <rect>x:-50;y:-15;w:100;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -3568,7 +3770,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{da657d08-7a5e-4ea0-ae78-d1a26091e93d}</object>
                                                           <name>Set signal type</name>
-                                                          <pos>x:320;y:375</pos>
+                                                          <pos>x:320;y:405</pos>
                                                           <rect>x:-50;y:-15;w:100;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -3659,7 +3861,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{1878cb07-a531-45ba-8df4-6bba591a6a3d}</object>
                                                           <name>Create Signal</name>
-                                                          <pos>x:485;y:295</pos>
+                                                          <pos>x:485;y:325</pos>
                                                           <rect>x:-45;y:-15;w:90;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -3681,7 +3883,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{03398d2e-e02e-47fa-b1ae-9262d5a176ab}</object>
                                                           <name>Record Signal from int</name>
-                                                          <pos>x:320;y:640</pos>
+                                                          <pos>x:480;y:680</pos>
                                                           <rect>x:-70;y:-15;w:140;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -3703,7 +3905,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{351c6b6b-22fe-412a-b639-e3b0aae05cc8}</object>
                                                           <name>Store signal(s)</name>
-                                                          <pos>x:140;y:640</pos>
+                                                          <pos>x:300;y:680</pos>
                                                           <rect>x:-50;y:-15;w:100;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -4013,7 +4215,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{3167fef7-923f-4364-afeb-68110de9b1e6}</object>
                                                           <name>Set channels</name>
-                                                          <pos>x:320;y:125</pos>
+                                                          <pos>x:320;y:155</pos>
                                                           <rect>x:-45;y:-15;w:90;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -4060,8 +4262,8 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           <object>{545e420e-f4e4-4520-9e1b-c56d1a3438f2}</object>
                                                           <context>Behaviour</context>
                                                           <name>RecordingUseCases</name>
-                                                          <pos>x:405;y:340</pos>
-                                                          <rect>x:-175;y:-270;w:350;h:540</rect>
+                                                          <pos>x:405;y:430</pos>
+                                                          <rect>x:-175;y:-330;w:350;h:660</rect>
                                                           <auto-sized>false</auto-sized>
                                                           <visual-role>5</visual-role>
                                                          </DObject>
@@ -4081,7 +4283,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{0e7dc173-0df1-4cf1-b364-9ef5b7ad239f}</object>
                                                           <name>Set Averaging setting</name>
-                                                          <pos>x:330;y:555</pos>
+                                                          <pos>x:330;y:585</pos>
                                                           <rect>x:-65;y:-15;w:130;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -4232,7 +4434,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                      </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1648408657065</last-modified>
+                                                   <last-modified>1649097656269</last-modified>
                                                    <toolbarid>UseCases</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
@@ -9009,7 +9211,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{46304229-7a9d-4c78-ab02-494be331d1db}</object>
                                                           <name>attach widgets to each other</name>
-                                                          <pos>x:525;y:225</pos>
+                                                          <pos>x:525;y:300</pos>
                                                           <rect>x:-85;y:-15;w:170;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -9053,7 +9255,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{4faa6b65-a85a-4df0-819e-c65cf3b53f7f}</object>
                                                           <name>Close widget</name>
-                                                          <pos>x:560;y:100</pos>
+                                                          <pos>x:510;y:130</pos>
                                                           <rect>x:-45;y:-15;w:90;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -9319,9 +9521,103 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                        </DDependency>
                                                       </instance>
                                                      </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{67328f97-d776-4673-bbd9-1b075bad4fce}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{0973ebba-df69-4268-8053-f3649b8d0363}</object>
+                                                          <a>{9095a4ed-d067-44e3-a100-81aa5d9178b0}</a>
+                                                          <b>{5131933d-e11d-47a8-ad94-39328fad7cad}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Communication</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DDependency">
+                                                       <DDependency>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{97af5e4f-69af-4f07-899f-47224e934757}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{9d84e73e-fcb5-4f1f-adc6-dbc1d0877ade}</object>
+                                                          <stereotypes>
+                                                           <qlist>
+                                                            <item>extends</item>
+                                                           </qlist>
+                                                          </stereotypes>
+                                                          <a>{5301f814-26fb-41d6-920a-f682f96e0c51}</a>
+                                                          <b>{5131933d-e11d-47a8-ad94-39328fad7cad}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                       </DDependency>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DDependency">
+                                                       <DDependency>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{d5e92965-4170-4269-8281-ee64adbc0390}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{36d938ad-6843-40fb-bea7-abaf04347654}</object>
+                                                          <stereotypes>
+                                                           <qlist>
+                                                            <item>extends</item>
+                                                           </qlist>
+                                                          </stereotypes>
+                                                          <a>{b4a55a9d-97d7-49a1-a6f7-5431dcb760c4}</a>
+                                                          <b>{5131933d-e11d-47a8-ad94-39328fad7cad}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                       </DDependency>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{c757563a-5e96-4598-b58b-8e61f41eeecd}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{82951af6-bca1-43d3-a0c0-9bcb71f432f0}</object>
+                                                          <a>{9095a4ed-d067-44e3-a100-81aa5d9178b0}</a>
+                                                          <b>{5301f814-26fb-41d6-920a-f682f96e0c51}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Communication</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1648409107953</last-modified>
+                                                   <last-modified>1649170317948</last-modified>
                                                    <toolbarid>UseCases</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
@@ -9729,6 +10025,33 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                          </target>
                                                         </handle>
                                                        </item>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{9d84e73e-fcb5-4f1f-adc6-dbc1d0877ade}</uid>
+                                                         <target>
+                                                          <instance type="MDependency">
+                                                           <MDependency>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{9d84e73e-fcb5-4f1f-adc6-dbc1d0877ade}</uid>
+                                                                <stereotypes>
+                                                                 <qlist>
+                                                                  <item>extends</item>
+                                                                 </qlist>
+                                                                </stereotypes>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{46304229-7a9d-4c78-ab02-494be331d1db}</a>
+                                                              <b>{9a0dcc66-fcf7-4e85-928e-e0d45ef7ce32}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                           </MDependency>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
                                                       </qlist>
                                                      </handles>
                                                     </handles>
@@ -9830,6 +10153,33 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                               </base-MElement>
                                                               <a>{4faa6b65-a85a-4df0-819e-c65cf3b53f7f}</a>
                                                               <b>{de598983-0e5b-4f08-93bc-deabaf02f27c}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                           </MDependency>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{36d938ad-6843-40fb-bea7-abaf04347654}</uid>
+                                                         <target>
+                                                          <instance type="MDependency">
+                                                           <MDependency>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{36d938ad-6843-40fb-bea7-abaf04347654}</uid>
+                                                                <stereotypes>
+                                                                 <qlist>
+                                                                  <item>extends</item>
+                                                                 </qlist>
+                                                                </stereotypes>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{4faa6b65-a85a-4df0-819e-c65cf3b53f7f}</a>
+                                                              <b>{9a0dcc66-fcf7-4e85-928e-e0d45ef7ce32}</b>
                                                              </MRelation>
                                                             </base-MRelation>
                                                            </MDependency>
@@ -9953,7 +10303,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           <context>Behaviour</context>
                                                           <name>UIUseCases</name>
                                                           <pos>x:365;y:270</pos>
-                                                          <rect>x:-190;y:-240;w:380;h:480</rect>
+                                                          <rect>x:-190;y:-230;w:380;h:460</rect>
                                                           <auto-sized>false</auto-sized>
                                                           <visual-role>5</visual-role>
                                                          </DObject>
@@ -10001,7 +10351,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{7b8f72fb-c1fe-4880-ac6d-e8c8a3d36af1}</object>
                                                           <name>Open project file</name>
-                                                          <pos>x:265;y:150</pos>
+                                                          <pos>x:265;y:130</pos>
                                                           <rect>x:-55;y:-15;w:110;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10023,7 +10373,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                           </base-DElement>
                                                           <object>{25503d4e-1047-43e4-b552-b12da5155850}</object>
                                                           <name>Create Project file</name>
-                                                          <pos>x:270;y:220</pos>
+                                                          <pos>x:270;y:200</pos>
                                                           <rect>x:-60;y:-15;w:120;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10060,7 +10410,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                           </base-DElement>
                                                           <object>{4e0f0212-0508-462b-8937-def935bd8bdf}</object>
                                                           <name>Delete project file</name>
-                                                          <pos>x:265;y:315</pos>
+                                                          <pos>x:265;y:295</pos>
                                                           <rect>x:-55;y:-15;w:110;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10082,7 +10432,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                           </base-DElement>
                                                           <object>{94b8777f-b957-4f8f-bf6b-a6d8ed218881}</object>
                                                           <name>Modify Project File</name>
-                                                          <pos>x:270;y:405</pos>
+                                                          <pos>x:270;y:385</pos>
                                                           <rect>x:-60;y:-15;w:120;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10104,7 +10454,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                           </base-DElement>
                                                           <object>{7e301f53-4de4-4520-8a82-68e8fd5d29df}</object>
                                                           <name>Add Measurement</name>
-                                                          <pos>x:440;y:350</pos>
+                                                          <pos>x:440;y:330</pos>
                                                           <rect>x:-60;y:-15;w:120;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10126,7 +10476,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                           </base-DElement>
                                                           <object>{588953fd-958b-4fa4-8d49-3d00976ecda2}</object>
                                                           <name>Delete Measurement</name>
-                                                          <pos>x:440;y:415</pos>
+                                                          <pos>x:440;y:395</pos>
                                                           <rect>x:-65;y:-15;w:130;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10243,8 +10593,8 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                            </DElement>
                                                           </base-DElement>
                                                           <object>{c4e2ff7f-a751-4598-9678-204e3cf21139}</object>
-                                                          <name>Modify Measurement data</name>
-                                                          <pos>x:440;y:470</pos>
+                                                          <name>Modify Measurement Info</name>
+                                                          <pos>x:440;y:450</pos>
                                                           <rect>x:-80;y:-15;w:160;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10323,10 +10673,55 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                        </DDependency>
                                                       </instance>
                                                      </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{fb71214f-7d75-4d8b-afc0-162136b0ce22}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{f52799c1-11fe-432c-b864-4ce3303c4530}</object>
+                                                          <name>Modify Project Info</name>
+                                                          <pos>x:265;y:460</pos>
+                                                          <rect>x:-60;y:-15;w:120;h:30</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>usecase</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DDependency">
+                                                       <DDependency>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{2dae308e-f2e3-4151-9e70-a226abbaff21}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{70fbef20-5016-4aa8-ab5f-894347b8ea0a}</object>
+                                                          <stereotypes>
+                                                           <qlist>
+                                                            <item>include</item>
+                                                           </qlist>
+                                                          </stereotypes>
+                                                          <a>{6205ca93-a055-4815-ad00-69d1ec670532}</a>
+                                                          <b>{fb71214f-7d75-4d8b-afc0-162136b0ce22}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                       </DDependency>
+                                                      </instance>
+                                                     </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1648416646131</last-modified>
-                                                   <toolbarid>General</toolbarid>
+                                                   <last-modified>1649153336348</last-modified>
+                                                   <toolbarid>UseCases</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
                                                 </MCanvasDiagram>
@@ -10456,6 +10851,33 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          </target>
                                                         </handle>
                                                        </item>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{70fbef20-5016-4aa8-ab5f-894347b8ea0a}</uid>
+                                                         <target>
+                                                          <instance type="MDependency">
+                                                           <MDependency>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{70fbef20-5016-4aa8-ab5f-894347b8ea0a}</uid>
+                                                                <stereotypes>
+                                                                 <qlist>
+                                                                  <item>include</item>
+                                                                 </qlist>
+                                                                </stereotypes>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{94b8777f-b957-4f8f-bf6b-a6d8ed218881}</a>
+                                                              <b>{f52799c1-11fe-432c-b864-4ce3303c4530}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                           </MDependency>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
                                                       </qlist>
                                                      </handles>
                                                     </handles>
@@ -10528,7 +10950,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                      <uid>{c4e2ff7f-a751-4598-9678-204e3cf21139}</uid>
                                                     </MElement>
                                                    </base-MElement>
-                                                   <name>Modify Measurement data</name>
+                                                   <name>Modify Measurement Info</name>
                                                   </MObject>
                                                  </base-MObject>
                                                  <variety-editable>false</variety-editable>
@@ -10719,7 +11141,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                           <object>{a72394a7-b6b3-4040-86e9-783666245383}</object>
                                                           <a>{b07a6b29-a770-452f-b053-fc5175c40ff1}</a>
                                                           <b>{adfc1f48-3ed6-49e0-9f02-789a31626239}</b>
-                                                          <name>yes</name>
+                                                          <name>True</name>
                                                          </DRelation>
                                                         </base-DRelation>
                                                         <custom-relation>Controlflow</custom-relation>
@@ -10729,28 +11151,6 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          </DConnectionEnd>
                                                         </a>
                                                        </DConnection>
-                                                      </instance>
-                                                     </item>
-                                                     <item>
-                                                      <instance type="DItem">
-                                                       <DItem>
-                                                        <base-DObject>
-                                                         <DObject>
-                                                          <base-DElement>
-                                                           <DElement>
-                                                            <uid>{b98d2957-4a90-480a-894d-03efe4d5a17b}</uid>
-                                                           </DElement>
-                                                          </base-DElement>
-                                                          <object>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</object>
-                                                          <pos>x:497.5;y:160</pos>
-                                                          <rect>x:-2.5;y:-65;w:5;h:130</rect>
-                                                          <auto-sized>false</auto-sized>
-                                                          <visual-role>0</visual-role>
-                                                         </DObject>
-                                                        </base-DObject>
-                                                        <variety>verticalbar</variety>
-                                                        <shape-editable>false</shape-editable>
-                                                       </DItem>
                                                       </instance>
                                                      </item>
                                                      <item>
@@ -10772,55 +11172,6 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                         <variety>termination</variety>
                                                         <shape-editable>false</shape-editable>
                                                        </DItem>
-                                                      </instance>
-                                                     </item>
-                                                     <item>
-                                                      <instance type="DConnection">
-                                                       <DConnection>
-                                                        <base-DRelation>
-                                                         <DRelation>
-                                                          <base-DElement>
-                                                           <DElement>
-                                                            <uid>{c44863c1-ed7f-44cf-96de-6c715c9af315}</uid>
-                                                           </DElement>
-                                                          </base-DElement>
-                                                          <object>{671c11be-5b94-44cd-91f8-aecf41bd1d6e}</object>
-                                                          <a>{adfc1f48-3ed6-49e0-9f02-789a31626239}</a>
-                                                          <b>{b98d2957-4a90-480a-894d-03efe4d5a17b}</b>
-                                                         </DRelation>
-                                                        </base-DRelation>
-                                                        <custom-relation>Controlflow</custom-relation>
-                                                        <a>
-                                                         <DConnectionEnd>
-                                                          <navigable>true</navigable>
-                                                         </DConnectionEnd>
-                                                        </a>
-                                                       </DConnection>
-                                                      </instance>
-                                                     </item>
-                                                     <item>
-                                                      <instance type="DConnection">
-                                                       <DConnection>
-                                                        <base-DRelation>
-                                                         <DRelation>
-                                                          <base-DElement>
-                                                           <DElement>
-                                                            <uid>{9ab40aed-79a5-46ed-ae37-485a87106a71}</uid>
-                                                           </DElement>
-                                                          </base-DElement>
-                                                          <object>{b40b6a87-c6ee-4f27-a3d3-9fb0d669b7a1}</object>
-                                                          <a>{b07a6b29-a770-452f-b053-fc5175c40ff1}</a>
-                                                          <b>{b98d2957-4a90-480a-894d-03efe4d5a17b}</b>
-                                                          <name>No</name>
-                                                         </DRelation>
-                                                        </base-DRelation>
-                                                        <custom-relation>Controlflow</custom-relation>
-                                                        <a>
-                                                         <DConnectionEnd>
-                                                          <navigable>true</navigable>
-                                                         </DConnectionEnd>
-                                                        </a>
-                                                       </DConnection>
                                                       </instance>
                                                      </item>
                                                      <item>
@@ -10852,11 +11203,81 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          <DRelation>
                                                           <base-DElement>
                                                            <DElement>
-                                                            <uid>{d03bb8fd-9cd3-4b44-a478-99efd4341a9b}</uid>
+                                                            <uid>{2f11467b-2f4c-467a-bd38-e9caeede6186}</uid>
                                                            </DElement>
                                                           </base-DElement>
-                                                          <object>{a21b4ffe-b27a-46a7-bbb1-370d16ac4c01}</object>
-                                                          <a>{b98d2957-4a90-480a-894d-03efe4d5a17b}</a>
+                                                          <object>{bafdd8ca-9e01-4eb3-aef5-fd204c331d44}</object>
+                                                          <a>{25303888-4ee2-417f-8c19-89f5db4b0563}</a>
+                                                          <b>{2feb5d7b-6f52-4011-83ce-52e543525e82}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{c817ff6b-02f0-4b5a-b293-e6a7215c0fda}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{4527ba8f-3c89-4b04-bedd-5ee69a319cc0}</object>
+                                                          <name>New Condition</name>
+                                                          <pos>x:485;y:160</pos>
+                                                          <rect>x:-20;y:-20;w:40;h:40</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>condition</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{d7bc0fd9-329c-4c89-b991-fcb3fe7c49da}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{8985e463-3e54-4439-9ec5-3a155b388220}</object>
+                                                          <a>{adfc1f48-3ed6-49e0-9f02-789a31626239}</a>
+                                                          <b>{c817ff6b-02f0-4b5a-b293-e6a7215c0fda}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{50d44254-a7ad-4ae2-8a98-f35b7c184ea6}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{db5a0035-74e2-45f2-b455-53b5a3f3f496}</object>
+                                                          <a>{c817ff6b-02f0-4b5a-b293-e6a7215c0fda}</a>
                                                           <b>{25303888-4ee2-417f-8c19-89f5db4b0563}</b>
                                                          </DRelation>
                                                         </base-DRelation>
@@ -10876,12 +11297,13 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          <DRelation>
                                                           <base-DElement>
                                                            <DElement>
-                                                            <uid>{2f11467b-2f4c-467a-bd38-e9caeede6186}</uid>
+                                                            <uid>{85027aff-9420-4c5b-9942-740f17dd9b9d}</uid>
                                                            </DElement>
                                                           </base-DElement>
-                                                          <object>{bafdd8ca-9e01-4eb3-aef5-fd204c331d44}</object>
-                                                          <a>{25303888-4ee2-417f-8c19-89f5db4b0563}</a>
-                                                          <b>{2feb5d7b-6f52-4011-83ce-52e543525e82}</b>
+                                                          <object>{77b5ef67-597e-4151-bb25-2ec9ca0fa3cc}</object>
+                                                          <a>{b07a6b29-a770-452f-b053-fc5175c40ff1}</a>
+                                                          <b>{c817ff6b-02f0-4b5a-b293-e6a7215c0fda}</b>
+                                                          <name>False</name>
                                                          </DRelation>
                                                         </base-DRelation>
                                                         <custom-relation>Controlflow</custom-relation>
@@ -10895,7 +11317,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                      </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1648418571022</last-modified>
+                                                   <last-modified>1649190872558</last-modified>
                                                    <toolbarid>Activities</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
@@ -10993,7 +11415,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                                 <uid>{a72394a7-b6b3-4040-86e9-783666245383}</uid>
                                                                </MElement>
                                                               </base-MElement>
-                                                              <name>yes</name>
+                                                              <name>True</name>
                                                               <a>{95a83836-5e39-403b-b84f-c39a961f0919}</a>
                                                               <b>{f72c8df0-8feb-4098-a3cd-0e8fb8a19281}</b>
                                                              </MRelation>
@@ -11025,6 +11447,35 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                               <name>No</name>
                                                               <a>{95a83836-5e39-403b-b84f-c39a961f0919}</a>
                                                               <b>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{77b5ef67-597e-4151-bb25-2ec9ca0fa3cc}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{77b5ef67-597e-4151-bb25-2ec9ca0fa3cc}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <name>False</name>
+                                                              <a>{95a83836-5e39-403b-b84f-c39a961f0919}</a>
+                                                              <b>{4527ba8f-3c89-4b04-bedd-5ee69a319cc0}</b>
                                                              </MRelation>
                                                             </base-MRelation>
                                                             <custom-relation>Controlflow</custom-relation>
@@ -11084,6 +11535,34 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                               </base-MElement>
                                                               <a>{f72c8df0-8feb-4098-a3cd-0e8fb8a19281}</a>
                                                               <b>{95f8ab66-adb2-4a84-835b-75b41e6bf67c}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{8985e463-3e54-4439-9ec5-3a155b388220}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{8985e463-3e54-4439-9ec5-3a155b388220}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{f72c8df0-8feb-4098-a3cd-0e8fb8a19281}</a>
+                                                              <b>{4527ba8f-3c89-4b04-bedd-5ee69a319cc0}</b>
                                                              </MRelation>
                                                             </base-MRelation>
                                                             <custom-relation>Controlflow</custom-relation>
@@ -11272,6 +11751,88 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                  </base-MObject>
                                                  <variety-editable>false</variety-editable>
                                                  <variety>activity</variety>
+                                                </MItem>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{f52799c1-11fe-432c-b864-4ce3303c4530}</uid>
+                                              <target>
+                                               <instance type="MItem">
+                                                <MItem>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{f52799c1-11fe-432c-b864-4ce3303c4530}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>Modify Project Info</name>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                 <variety-editable>false</variety-editable>
+                                                 <variety>usecase</variety>
+                                                </MItem>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{4527ba8f-3c89-4b04-bedd-5ee69a319cc0}</uid>
+                                              <target>
+                                               <instance type="MItem">
+                                                <MItem>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{4527ba8f-3c89-4b04-bedd-5ee69a319cc0}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>New Condition</name>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{db5a0035-74e2-45f2-b455-53b5a3f3f496}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{db5a0035-74e2-45f2-b455-53b5a3f3f496}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{4527ba8f-3c89-4b04-bedd-5ee69a319cc0}</a>
+                                                              <b>{499e0301-5afd-48d1-8513-3cb80b8f7813}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                 <variety-editable>false</variety-editable>
+                                                 <variety>condition</variety>
                                                 </MItem>
                                                </instance>
                                               </target>
@@ -11598,6 +12159,149 @@ basically i have the same on project level --&gt; Create project, Read project, 
          </handles>
         </handles>
        </children>
+       <relations>
+        <handles>
+         <handles>
+          <qlist>
+           <item>
+            <handle>
+             <uid>{c42022c2-d9ea-4c93-933b-12d2e1fe773c}</uid>
+             <target>
+              <instance type="MDependency">
+               <MDependency>
+                <base-MRelation>
+                 <MRelation>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{c42022c2-d9ea-4c93-933b-12d2e1fe773c}</uid>
+                    <stereotypes>
+                     <qlist>
+                      <item>import</item>
+                     </qlist>
+                    </stereotypes>
+                   </MElement>
+                  </base-MElement>
+                  <a>{3ff5ef3f-7997-49d2-8051-8756131ff95f}</a>
+                  <b>{2535672b-82c6-4b2c-ac9c-f542954a7dff}</b>
+                 </MRelation>
+                </base-MRelation>
+               </MDependency>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{0d201765-b5bd-4be9-a22a-3c4316cbfacd}</uid>
+             <target>
+              <instance type="MDependency">
+               <MDependency>
+                <base-MRelation>
+                 <MRelation>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{0d201765-b5bd-4be9-a22a-3c4316cbfacd}</uid>
+                    <stereotypes>
+                     <qlist>
+                      <item>import</item>
+                     </qlist>
+                    </stereotypes>
+                   </MElement>
+                  </base-MElement>
+                  <a>{3ff5ef3f-7997-49d2-8051-8756131ff95f}</a>
+                  <b>{5f891fcc-6c79-4dd3-bcc8-648bf75781c3}</b>
+                 </MRelation>
+                </base-MRelation>
+               </MDependency>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{4e3098d5-02ec-4ba3-b57f-e53dbe51e513}</uid>
+             <target>
+              <instance type="MDependency">
+               <MDependency>
+                <base-MRelation>
+                 <MRelation>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{4e3098d5-02ec-4ba3-b57f-e53dbe51e513}</uid>
+                    <stereotypes>
+                     <qlist>
+                      <item>import</item>
+                     </qlist>
+                    </stereotypes>
+                   </MElement>
+                  </base-MElement>
+                  <a>{3ff5ef3f-7997-49d2-8051-8756131ff95f}</a>
+                  <b>{9dd6e5db-e490-47d9-89d5-13268caee229}</b>
+                 </MRelation>
+                </base-MRelation>
+               </MDependency>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{a0f46579-fb0d-4c81-ac06-3be71b6eb8f0}</uid>
+             <target>
+              <instance type="MDependency">
+               <MDependency>
+                <base-MRelation>
+                 <MRelation>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{a0f46579-fb0d-4c81-ac06-3be71b6eb8f0}</uid>
+                    <stereotypes>
+                     <qlist>
+                      <item>import</item>
+                     </qlist>
+                    </stereotypes>
+                   </MElement>
+                  </base-MElement>
+                  <a>{3ff5ef3f-7997-49d2-8051-8756131ff95f}</a>
+                  <b>{9ca5fcc8-71dd-495a-a975-ad6c3e1e21a9}</b>
+                 </MRelation>
+                </base-MRelation>
+               </MDependency>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{8036d682-0774-43cc-b574-b41ada5ac3b2}</uid>
+             <target>
+              <instance type="MDependency">
+               <MDependency>
+                <base-MRelation>
+                 <MRelation>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{8036d682-0774-43cc-b574-b41ada5ac3b2}</uid>
+                    <stereotypes>
+                     <qlist>
+                      <item>import</item>
+                     </qlist>
+                    </stereotypes>
+                   </MElement>
+                  </base-MElement>
+                  <a>{3ff5ef3f-7997-49d2-8051-8756131ff95f}</a>
+                  <b>{5c722652-0d81-40f1-8a29-caf720ffd4e2}</b>
+                 </MRelation>
+                </base-MRelation>
+               </MDependency>
+              </instance>
+             </target>
+            </handle>
+           </item>
+          </qlist>
+         </handles>
+        </handles>
+       </relations>
       </MObject>
      </base-MObject>
     </MPackage>
