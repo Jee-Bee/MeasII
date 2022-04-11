@@ -10659,7 +10659,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                           </base-DElement>
                                                           <object>{f52799c1-11fe-432c-b864-4ce3303c4530}</object>
                                                           <name>Modify Project Info</name>
-                                                          <pos>x:265;y:460</pos>
+                                                          <pos>x:270;y:460</pos>
                                                           <rect>x:-60;y:-15;w:120;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -10694,7 +10694,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                      </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1649153336348</last-modified>
+                                                   <last-modified>1649686997838</last-modified>
                                                    <toolbarid>UseCases</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
@@ -11138,7 +11138,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                            </DElement>
                                                           </base-DElement>
                                                           <object>{ef1b6ab0-aa9c-4cf7-9e7d-dae210b241fe}</object>
-                                                          <pos>x:785;y:80</pos>
+                                                          <pos>x:830;y:80</pos>
                                                           <rect>x:-20;y:-20;w:40;h:40</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -11160,7 +11160,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                           </base-DElement>
                                                           <object>{499e0301-5afd-48d1-8513-3cb80b8f7813}</object>
                                                           <name>run: main.py</name>
-                                                          <pos>x:610;y:290</pos>
+                                                          <pos>x:635;y:290</pos>
                                                           <rect>x:-45;y:-15;w:90;h:30</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -11300,9 +11300,9 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                            </DElement>
                                                           </base-DElement>
                                                           <object>{a9948ecb-ba9b-432c-8fac-a8c40d7962f4}</object>
-                                                          <name>Meas Starts</name>
-                                                          <pos>x:610;y:80</pos>
-                                                          <rect>x:-45;y:-15;w:90;h:30</rect>
+                                                          <name>Meas Mainwindow Opens</name>
+                                                          <pos>x:635;y:80</pos>
+                                                          <rect>x:-80;y:-15;w:160;h:30</rect>
                                                           <visual-role>9</visual-role>
                                                          </DObject>
                                                         </base-DObject>
@@ -11344,8 +11344,8 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          </DElement>
                                                         </base-DElement>
                                                         <text>User Activity</text>
-                                                        <pos>x:415;y:250</pos>
-                                                        <rect>x:-285;y:-110;w:570;h:220</rect>
+                                                        <pos>x:445;y:250</pos>
+                                                        <rect>x:-315;y:-110;w:630;h:220</rect>
                                                        </DBoundary>
                                                       </instance>
                                                      </item>
@@ -11404,14 +11404,14 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          </DElement>
                                                         </base-DElement>
                                                         <text>Software Response</text>
-                                                        <pos>x:415;y:80</pos>
-                                                        <rect>x:-285;y:-45;w:570;h:90</rect>
+                                                        <pos>x:445;y:80</pos>
+                                                        <rect>x:-315;y:-45;w:630;h:90</rect>
                                                        </DBoundary>
                                                       </instance>
                                                      </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1649322222669</last-modified>
+                                                   <last-modified>1649686836019</last-modified>
                                                    <toolbarid>Activities</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
@@ -11841,7 +11841,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                            </DElement>
                                                           </base-DElement>
                                                           <object>{99acb813-a0a2-492d-aac6-1713f3eeda5b}</object>
-                                                          <pos>x:965;y:330</pos>
+                                                          <pos>x:1040;y:330</pos>
                                                           <rect>x:-20;y:-20;w:40;h:40</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -12251,7 +12251,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                      </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1649321351961</last-modified>
+                                                   <last-modified>1649686892152</last-modified>
                                                    <toolbarid>Activities</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
@@ -12741,7 +12741,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                            </DElement>
                                                           </base-DElement>
                                                           <object>{4a1e50c0-c081-47b3-9704-2806259a69e1}</object>
-                                                          <pos>x:975;y:180</pos>
+                                                          <pos>x:1010;y:180</pos>
                                                           <rect>x:-20;y:-20;w:40;h:40</rect>
                                                           <visual-role>0</visual-role>
                                                          </DObject>
@@ -13100,9 +13100,9 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                            </DElement>
                                                           </base-DElement>
                                                           <object>{65ebfa6e-ce0f-47eb-a580-48b5e10c38e3}</object>
-                                                          <name>New Project opens</name>
-                                                          <pos>x:830;y:180</pos>
-                                                          <rect>x:-60;y:-15;w:120;h:30</rect>
+                                                          <name>Meas Opens: New Project</name>
+                                                          <pos>x:845;y:180</pos>
+                                                          <rect>x:-80;y:-15;w:160;h:30</rect>
                                                           <visual-role>9</visual-role>
                                                          </DObject>
                                                         </base-DObject>
@@ -13144,14 +13144,14 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          </DElement>
                                                         </base-DElement>
                                                         <text>Response Software</text>
-                                                        <pos>x:830;y:175</pos>
+                                                        <pos>x:845;y:175</pos>
                                                         <rect>x:-95;y:-105;w:190;h:210</rect>
                                                        </DBoundary>
                                                       </instance>
                                                      </item>
                                                     </qlist>
                                                    </elements>
-                                                   <last-modified>1649321189619</last-modified>
+                                                   <last-modified>1649687127862</last-modified>
                                                    <toolbarid>Activities</toolbarid>
                                                   </MDiagram>
                                                  </base-MDiagram>
@@ -13432,6 +13432,34 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                          </target>
                                                         </handle>
                                                        </item>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{a93dce6b-4a4c-4c43-a250-3fd3746b2226}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{a93dce6b-4a4c-4c43-a250-3fd3746b2226}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{4d4422d0-a5eb-46c3-b242-f1e1335ce0e1}</a>
+                                                              <b>{718e80ac-4eec-4196-b6a3-d00095574fc8}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
                                                       </qlist>
                                                      </handles>
                                                     </handles>
@@ -13537,6 +13565,34 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                               </base-MElement>
                                                               <a>{09527e66-76c0-47f4-9ea6-1e0cfad32e0d}</a>
                                                               <b>{9e15e90f-81f5-4bc7-9808-128aff659cae}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{d262334e-f60f-45d0-a7c7-1fc18484c9f6}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{d262334e-f60f-45d0-a7c7-1fc18484c9f6}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{09527e66-76c0-47f4-9ea6-1e0cfad32e0d}</a>
+                                                              <b>{5bc472bf-740e-42ff-b25c-88d28dbc4c1c}</b>
                                                              </MRelation>
                                                             </base-MRelation>
                                                             <custom-relation>Controlflow</custom-relation>
@@ -13983,7 +14039,7 @@ basically i have the same on project level --&gt; Create project, Read project, 
                                                            </DElement>
                                                           </base-DElement>
                                                           <object>{4a046162-8ab4-407b-b68a-3f7d8694b56d}</object>
-                                                          <name>Click: EditMenu</name>
+                                                          <name>Click: Edit Menu</name>
                                                           <pos>x:220;y:190</pos>
                                                           <rect>x:-50;y:-15;w:100;h:30</rect>
                                                           <visual-role>0</visual-role>
@@ -14573,7 +14629,7 @@ deelgebieden??</text>
                                                      <uid>{4a046162-8ab4-407b-b68a-3f7d8694b56d}</uid>
                                                     </MElement>
                                                    </base-MElement>
-                                                   <name>Click: EditMenu</name>
+                                                   <name>Click: Edit Menu</name>
                                                    <relations>
                                                     <handles>
                                                      <handles>
@@ -14691,7 +14747,7 @@ deelgebieden??</text>
                                                      <uid>{65ebfa6e-ce0f-47eb-a580-48b5e10c38e3}</uid>
                                                     </MElement>
                                                    </base-MElement>
-                                                   <name>New Project opens</name>
+                                                   <name>Meas Opens: New Project</name>
                                                    <relations>
                                                     <handles>
                                                      <handles>
@@ -14809,7 +14865,7 @@ deelgebieden??</text>
                                                      <uid>{a9948ecb-ba9b-432c-8fac-a8c40d7962f4}</uid>
                                                     </MElement>
                                                    </base-MElement>
-                                                   <name>Meas Starts</name>
+                                                   <name>Meas Mainwindow Opens</name>
                                                    <relations>
                                                     <handles>
                                                      <handles>
@@ -15272,6 +15328,771 @@ deelgebieden??</text>
                                                     </MElement>
                                                    </base-MElement>
                                                    <name>New Activity</name>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                 <variety-editable>false</variety-editable>
+                                                 <variety>activity</variety>
+                                                </MItem>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{cd140d33-38e0-48f0-8090-2c65c0f7fb88}</uid>
+                                              <target>
+                                               <instance type="MCanvasDiagram">
+                                                <MCanvasDiagram>
+                                                 <base-MDiagram>
+                                                  <MDiagram>
+                                                   <base-MObject>
+                                                    <MObject>
+                                                     <base-MElement>
+                                                      <MElement>
+                                                       <uid>{cd140d33-38e0-48f0-8090-2c65c0f7fb88}</uid>
+                                                      </MElement>
+                                                     </base-MElement>
+                                                     <name>ACT_OpenProject</name>
+                                                    </MObject>
+                                                   </base-MObject>
+                                                   <elements>
+                                                    <qlist>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{1ac111b1-eaf0-46ef-bc1a-ec5ab5702f3d}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{4d4422d0-a5eb-46c3-b242-f1e1335ce0e1}</object>
+                                                          <pos>x:132.5;y:180</pos>
+                                                          <rect>x:-2.5;y:-70;w:5;h:140</rect>
+                                                          <auto-sized>false</auto-sized>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>verticalbar</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{57ec1234-a5fb-49be-af81-2864ff55dbb5}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{09527e66-76c0-47f4-9ea6-1e0cfad32e0d}</object>
+                                                          <name>Click: File Menu</name>
+                                                          <pos>x:250;y:120</pos>
+                                                          <rect>x:-50;y:-15;w:100;h:30</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>activity</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{5f8d3824-7a20-49fd-84af-1472fe285b46}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{1ec8516a-62d3-4ca3-8bf1-0e22758c81c2}</object>
+                                                          <a>{1ac111b1-eaf0-46ef-bc1a-ec5ab5702f3d}</a>
+                                                          <b>{57ec1234-a5fb-49be-af81-2864ff55dbb5}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{fb6a420c-bc33-4128-9342-3169872e3897}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{c8b7ce16-e1bd-41a3-9aa0-fd4279f3739c}</object>
+                                                          <pos>x:55;y:180</pos>
+                                                          <rect>x:-20;y:-20;w:40;h:40</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>start</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{72c62c4d-e27e-466a-b37b-04429502fbd3}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{1e187f6a-29e1-4f11-b2f9-332eb7b4209d}</object>
+                                                          <a>{fb6a420c-bc33-4128-9342-3169872e3897}</a>
+                                                          <b>{1ac111b1-eaf0-46ef-bc1a-ec5ab5702f3d}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{98e088e6-d769-4d40-a4fc-5608e6c45681}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{718e80ac-4eec-4196-b6a3-d00095574fc8}</object>
+                                                          <name>Shortcut: Ctrl+O / Cmd+O</name>
+                                                          <pos>x:440;y:235</pos>
+                                                          <rect>x:-80;y:-15;w:160;h:30</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>activity</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{3366f36b-ac02-4031-88df-c60439ef38e3}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{5bc472bf-740e-42ff-b25c-88d28dbc4c1c}</object>
+                                                          <name>Select: Open Project</name>
+                                                          <pos>x:405;y:120</pos>
+                                                          <rect>x:-65;y:-15;w:130;h:30</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>activity</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{18a2fec7-260c-4f1f-840a-1fd8ae0e2555}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{948a01e5-bfac-4e4d-ad62-550f71e4de53}</object>
+                                                          <name>Click: Open Project</name>
+                                                          <pos>x:565;y:120</pos>
+                                                          <rect>x:-60;y:-15;w:120;h:30</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>activity</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{b2ead2bd-e0f5-4143-beb4-0319e889f949}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{d262334e-f60f-45d0-a7c7-1fc18484c9f6}</object>
+                                                          <a>{57ec1234-a5fb-49be-af81-2864ff55dbb5}</a>
+                                                          <b>{3366f36b-ac02-4031-88df-c60439ef38e3}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{14da954d-72f5-4f5c-83d9-165f2b9c456b}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{7bd1dfaa-2eef-43c8-b26e-2006f7f6dfb5}</object>
+                                                          <a>{3366f36b-ac02-4031-88df-c60439ef38e3}</a>
+                                                          <b>{18a2fec7-260c-4f1f-840a-1fd8ae0e2555}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{40be7874-70cf-4682-9c78-dcf102dcb714}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{a93dce6b-4a4c-4c43-a250-3fd3746b2226}</object>
+                                                          <a>{1ac111b1-eaf0-46ef-bc1a-ec5ab5702f3d}</a>
+                                                          <b>{98e088e6-d769-4d40-a4fc-5608e6c45681}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{dc181b94-a134-4b8e-9cee-179181a6929e}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{27c6cb9c-76a6-4193-aab7-e8ec403cd230}</object>
+                                                          <pos>x:697.5;y:180</pos>
+                                                          <rect>x:-2.5;y:-70;w:5;h:140</rect>
+                                                          <auto-sized>false</auto-sized>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>verticalbar</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{0dbda7df-33cb-4cf8-8728-a1a007d39f3d}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{c716169b-effd-4a9e-8228-0f38f4704762}</object>
+                                                          <a>{18a2fec7-260c-4f1f-840a-1fd8ae0e2555}</a>
+                                                          <b>{dc181b94-a134-4b8e-9cee-179181a6929e}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{6c475f1f-36c4-42f0-960e-d14170338a41}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{6c342594-9c93-4fda-8dc4-b065f61907c4}</object>
+                                                          <a>{98e088e6-d769-4d40-a4fc-5608e6c45681}</a>
+                                                          <b>{dc181b94-a134-4b8e-9cee-179181a6929e}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DBoundary">
+                                                       <DBoundary>
+                                                        <base-DElement>
+                                                         <DElement>
+                                                          <uid>{2d663370-264c-4f83-929b-f680271b85c1}</uid>
+                                                         </DElement>
+                                                        </base-DElement>
+                                                        <text>User Activity</text>
+                                                        <pos>x:405;y:175</pos>
+                                                        <rect>x:-255;y:-100;w:510;h:200</rect>
+                                                       </DBoundary>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{14c682f8-6dab-420e-a447-696175e017f5}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{4a8e6964-c0f0-4fdd-976e-0e7d47f58a41}</object>
+                                                          <name>Meas Opens: Existing Project</name>
+                                                          <pos>x:855;y:180</pos>
+                                                          <rect>x:-90;y:-15;w:180;h:30</rect>
+                                                          <visual-role>9</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>activity</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{c270109d-5ad9-48a1-bc72-5f83f8ea2978}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{960b26e7-a1fa-4189-bf6c-03ce3a4c725e}</object>
+                                                          <a>{dc181b94-a134-4b8e-9cee-179181a6929e}</a>
+                                                          <b>{14c682f8-6dab-420e-a447-696175e017f5}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DItem">
+                                                       <DItem>
+                                                        <base-DObject>
+                                                         <DObject>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{2986c2b2-055d-443f-9c50-24a673d417cd}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{4a1e50c0-c081-47b3-9704-2806259a69e1}</object>
+                                                          <pos>x:1040;y:180</pos>
+                                                          <rect>x:-20;y:-20;w:40;h:40</rect>
+                                                          <visual-role>0</visual-role>
+                                                         </DObject>
+                                                        </base-DObject>
+                                                        <variety>termination</variety>
+                                                        <shape-editable>false</shape-editable>
+                                                       </DItem>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DConnection">
+                                                       <DConnection>
+                                                        <base-DRelation>
+                                                         <DRelation>
+                                                          <base-DElement>
+                                                           <DElement>
+                                                            <uid>{a0963e63-80d9-4aed-8f44-65fd625823fe}</uid>
+                                                           </DElement>
+                                                          </base-DElement>
+                                                          <object>{c53b9ed8-2e9c-42d0-9fa1-569d16ac9db6}</object>
+                                                          <a>{14c682f8-6dab-420e-a447-696175e017f5}</a>
+                                                          <b>{2986c2b2-055d-443f-9c50-24a673d417cd}</b>
+                                                         </DRelation>
+                                                        </base-DRelation>
+                                                        <custom-relation>Controlflow</custom-relation>
+                                                        <a>
+                                                         <DConnectionEnd>
+                                                          <navigable>true</navigable>
+                                                         </DConnectionEnd>
+                                                        </a>
+                                                       </DConnection>
+                                                      </instance>
+                                                     </item>
+                                                     <item>
+                                                      <instance type="DBoundary">
+                                                       <DBoundary>
+                                                        <base-DElement>
+                                                         <DElement>
+                                                          <uid>{589f2a1c-0907-4fc7-b452-a72e3e5525b0}</uid>
+                                                         </DElement>
+                                                        </base-DElement>
+                                                        <text>Software Response</text>
+                                                        <pos>x:850;y:175</pos>
+                                                        <rect>x:-115;y:-100;w:230;h:200</rect>
+                                                       </DBoundary>
+                                                      </instance>
+                                                     </item>
+                                                    </qlist>
+                                                   </elements>
+                                                   <last-modified>1649698807811</last-modified>
+                                                   <toolbarid>Activities</toolbarid>
+                                                  </MDiagram>
+                                                 </base-MDiagram>
+                                                </MCanvasDiagram>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{718e80ac-4eec-4196-b6a3-d00095574fc8}</uid>
+                                              <target>
+                                               <instance type="MItem">
+                                                <MItem>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{718e80ac-4eec-4196-b6a3-d00095574fc8}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>Shortcut: Ctrl+O / Cmd+O</name>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{6c342594-9c93-4fda-8dc4-b065f61907c4}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{6c342594-9c93-4fda-8dc4-b065f61907c4}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{718e80ac-4eec-4196-b6a3-d00095574fc8}</a>
+                                                              <b>{27c6cb9c-76a6-4193-aab7-e8ec403cd230}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                 <variety-editable>false</variety-editable>
+                                                 <variety>activity</variety>
+                                                </MItem>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{5bc472bf-740e-42ff-b25c-88d28dbc4c1c}</uid>
+                                              <target>
+                                               <instance type="MItem">
+                                                <MItem>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{5bc472bf-740e-42ff-b25c-88d28dbc4c1c}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>Select: Open Project</name>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{7bd1dfaa-2eef-43c8-b26e-2006f7f6dfb5}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{7bd1dfaa-2eef-43c8-b26e-2006f7f6dfb5}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{5bc472bf-740e-42ff-b25c-88d28dbc4c1c}</a>
+                                                              <b>{948a01e5-bfac-4e4d-ad62-550f71e4de53}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                 <variety-editable>false</variety-editable>
+                                                 <variety>activity</variety>
+                                                </MItem>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{948a01e5-bfac-4e4d-ad62-550f71e4de53}</uid>
+                                              <target>
+                                               <instance type="MItem">
+                                                <MItem>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{948a01e5-bfac-4e4d-ad62-550f71e4de53}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>Click: Open Project</name>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{c716169b-effd-4a9e-8228-0f38f4704762}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{c716169b-effd-4a9e-8228-0f38f4704762}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{948a01e5-bfac-4e4d-ad62-550f71e4de53}</a>
+                                                              <b>{27c6cb9c-76a6-4193-aab7-e8ec403cd230}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                 <variety-editable>false</variety-editable>
+                                                 <variety>activity</variety>
+                                                </MItem>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{27c6cb9c-76a6-4193-aab7-e8ec403cd230}</uid>
+                                              <target>
+                                               <instance type="MItem">
+                                                <MItem>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{27c6cb9c-76a6-4193-aab7-e8ec403cd230}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{960b26e7-a1fa-4189-bf6c-03ce3a4c725e}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{960b26e7-a1fa-4189-bf6c-03ce3a4c725e}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{27c6cb9c-76a6-4193-aab7-e8ec403cd230}</a>
+                                                              <b>{4a8e6964-c0f0-4fdd-976e-0e7d47f58a41}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
+                                                  </MObject>
+                                                 </base-MObject>
+                                                 <variety-editable>false</variety-editable>
+                                                 <variety>verticalbar</variety>
+                                                </MItem>
+                                               </instance>
+                                              </target>
+                                             </handle>
+                                            </item>
+                                            <item>
+                                             <handle>
+                                              <uid>{4a8e6964-c0f0-4fdd-976e-0e7d47f58a41}</uid>
+                                              <target>
+                                               <instance type="MItem">
+                                                <MItem>
+                                                 <base-MObject>
+                                                  <MObject>
+                                                   <base-MElement>
+                                                    <MElement>
+                                                     <uid>{4a8e6964-c0f0-4fdd-976e-0e7d47f58a41}</uid>
+                                                    </MElement>
+                                                   </base-MElement>
+                                                   <name>Meas Opens: Existing Project</name>
+                                                   <relations>
+                                                    <handles>
+                                                     <handles>
+                                                      <qlist>
+                                                       <item>
+                                                        <handle>
+                                                         <uid>{c53b9ed8-2e9c-42d0-9fa1-569d16ac9db6}</uid>
+                                                         <target>
+                                                          <instance type="MConnection">
+                                                           <MConnection>
+                                                            <base-MRelation>
+                                                             <MRelation>
+                                                              <base-MElement>
+                                                               <MElement>
+                                                                <uid>{c53b9ed8-2e9c-42d0-9fa1-569d16ac9db6}</uid>
+                                                               </MElement>
+                                                              </base-MElement>
+                                                              <a>{4a8e6964-c0f0-4fdd-976e-0e7d47f58a41}</a>
+                                                              <b>{4a1e50c0-c081-47b3-9704-2806259a69e1}</b>
+                                                             </MRelation>
+                                                            </base-MRelation>
+                                                            <custom-relation>Controlflow</custom-relation>
+                                                            <a>
+                                                             <MConnectionEnd>
+                                                              <navigable>true</navigable>
+                                                             </MConnectionEnd>
+                                                            </a>
+                                                           </MConnection>
+                                                          </instance>
+                                                         </target>
+                                                        </handle>
+                                                       </item>
+                                                      </qlist>
+                                                     </handles>
+                                                    </handles>
+                                                   </relations>
                                                   </MObject>
                                                  </base-MObject>
                                                  <variety-editable>false</variety-editable>
