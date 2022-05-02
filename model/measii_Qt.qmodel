@@ -8393,7 +8393,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                        <uid>{20cbdda2-a5ef-4035-8f55-5fa7c5959c3b}</uid>
                                                       </MElement>
                                                      </base-MElement>
-                                                     <name>UC_postProcessingUseCases</name>
+                                                     <name>UC_postProcessing</name>
                                                     </MObject>
                                                    </base-MObject>
                                                    <elements>
@@ -10559,7 +10559,7 @@ https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</text>
                                                        <uid>{ee8e1d57-741e-4eea-8e0d-40fd3bdfd65a}</uid>
                                                       </MElement>
                                                      </base-MElement>
-                                                     <name>US_recordProcessingUseCases</name>
+                                                     <name>UC_recordProcessing</name>
                                                     </MObject>
                                                    </base-MObject>
                                                    <elements>
