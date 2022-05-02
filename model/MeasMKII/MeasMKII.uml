@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qaeFMGF4EeuwC-FXYqxZdg" name="MeasMKII">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qhzcQGF4EeuwC-FXYqxZdg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_SITUQLTzEeyEmKPs05t4ww" importedPackage="_BGWPILTzEeyEmKPs05t4ww"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_T-D8ALTzEeyEmKPs05t4ww" importedPackage="_C7ImgLTzEeyEmKPs05t4ww"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Uv3zcLTzEeyEmKPs05t4ww" importedPackage="_D7WtYLTzEeyEmKPs05t4ww"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_V0KiALTzEeyEmKPs05t4ww" importedPackage="_GFmXYLTzEeyEmKPs05t4ww"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_W7q8oLTzEeyEmKPs05t4ww" importedPackage="_MgcT4LTzEeyEmKPs05t4ww"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lFzI0LQeEeyMRP-BEObGtA" name="Domain">
+    <packagedElement xmi:type="uml:Package" xmi:id="_TMNboLQfEeyMRP-BEObGtA" name="Actors">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_TRv7kLQiEeyMRP-BEObGtA" name="User"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_YaZQYLQiEeyMRP-BEObGtA" name="Analyst">
+        <generalization xmi:type="uml:Generalization" xmi:id="_0ETLoLQiEeyMRP-BEObGtA" general="_TRv7kLQiEeyMRP-BEObGtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_a2Rc8LQiEeyMRP-BEObGtA" name="RecordEngineer">
+        <generalization xmi:type="uml:Generalization" xmi:id="_8KnygLQiEeyMRP-BEObGtA" general="_TRv7kLQiEeyMRP-BEObGtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_gavLELQiEeyMRP-BEObGtA" name="Programmer">
+        <generalization xmi:type="uml:Generalization" xmi:id="_LeSJ0LQjEeyMRP-BEObGtA" general="_28p40LQiEeyMRP-BEObGtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_lWIHALQiEeyMRP-BEObGtA" name="Hardware"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_m1foALQiEeyMRP-BEObGtA" name="SoundInterface">
+        <generalization xmi:type="uml:Generalization" xmi:id="_u8Q60LQiEeyMRP-BEObGtA" general="_lWIHALQiEeyMRP-BEObGtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_qAm5ILQiEeyMRP-BEObGtA" name="Microphone">
+        <generalization xmi:type="uml:Generalization" xmi:id="_v69-wLQiEeyMRP-BEObGtA" general="_lWIHALQiEeyMRP-BEObGtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_28p40LQiEeyMRP-BEObGtA" name="TechnicalUser">
+        <generalization xmi:type="uml:Generalization" xmi:id="_-EA9ELQiEeyMRP-BEObGtA" general="_TRv7kLQiEeyMRP-BEObGtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IgcfsLQjEeyMRP-BEObGtA" memberEnd="_IgdGwrQjEeyMRP-BEObGtA _IgdGw7QjEeyMRP-BEObGtA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IgdGwLQjEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IgdGwbQjEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_IgdGwrQjEeyMRP-BEObGtA" name="hardware" type="_lWIHALQiEeyMRP-BEObGtA" association="_IgcfsLQjEeyMRP-BEObGtA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_IgdGw7QjEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_IgcfsLQjEeyMRP-BEObGtA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n5djQLQeEeyMRP-BEObGtA" name="Structure">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_pDPmMLUYEeyEmKPs05t4ww">
+        <body>Tutorial for better understanding about uml:
+https://www.youtube.com/playlist?list=PLoWne5q-c9E_Q2_eAUZKPDA5K0V-O5zXs</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="__l79YGF4EeuwC-FXYqxZdg" name="Ui">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_YJ8mQGGbEeur5pVOWcaATg">
+          <body>See Friture for ideas:&#xD;
+- Start with empty tree. - Tree will be filled with opening project OR adding project&#xD;
+- New project create project item in tree&#xD;
+- New recordings add lower level tree items&#xD;
+- Result in objects shop up below recording items&#xD;
+- Create widgets on the fly.&#xD;
+- Widget for recording (parameters)&#xD;
+- Widget for (recording )levels / dB meter&#xD;
+- Widget for 1D time&#xD;
+- Widget for 1D frequency spectrum&#xD;
+- Widget for 1D N bands octave spectrum&#xD;
+- Widget for 2D Spectogram&#xD;
+- Settings&#xD;
+To be dicided&#xD;
+- How handle multiple signals in a single recording - graphically&#xD;
+- How to compare multiple recordings - graphically</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_9-FzALUZEeyEmKPs05t4ww">
+          <body>Weet nog niet hoe data widgets in te richten.
+* Zie nu nog modellen van papyrus voor comments</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Component" xmi:id="_eTC9kLUZEeyEmKPs05t4ww" name="MainWindow"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_fpOtYLUZEeyEmKPs05t4ww" name="RecordingWidget"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_rdx5gLUZEeyEmKPs05t4ww" name="DataWidget"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_z8dbELQeEeyMRP-BEObGtA" name="Src">
+        <packagedElement xmi:type="uml:Package" xmi:id="_zcGUcLQoEeyMRP-BEObGtA" name="Recording"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_2uWvYLQoEeyMRP-BEObGtA" name="Processing"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_9HEwgLQeEeyMRP-BEObGtA" name="model">
+        <packagedElement xmi:type="uml:Package" xmi:id="_2uwGALTuEeyEmKPs05t4ww" name="Qt_Model"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_61XWELTuEeyEmKPs05t4ww" name="Papyrus_Model"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_QUN60LQfEeyMRP-BEObGtA" name="Libraries">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_k8FOQLTxEeyEmKPs05t4ww">
+      <body>See potential libraries on: https://numpy.org</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_1fqf4LTyEeyEmKPs05t4ww" annotatedElement="_MgcT4LTzEeyEmKPs05t4ww">
+      <body>Optional Pyside6</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Model" xmi:id="_BGWPILTzEeyEmKPs05t4ww" name="Numpy"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_C7ImgLTzEeyEmKPs05t4ww" name="Scipy"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_D7WtYLTzEeyEmKPs05t4ww" name="Matplotlib"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_GFmXYLTzEeyEmKPs05t4ww" name="PySounddevice"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_MgcT4LTzEeyEmKPs05t4ww" name="PySide2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jkB-oLQfEeyMRP-BEObGtA" name="Recuirements">
+    <packagedElement xmi:type="uml:Package" xmi:id="_8071YGF4EeuwC-FXYqxZdg" name="Behaviour">
+      <packagedElement xmi:type="uml:Package" xmi:id="_v1kBsLQfEeyMRP-BEObGtA" name="RecordingUseCases">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ATIRQLQpEeyMRP-BEObGtA">
+          <body>Modify Signal based on feedback</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_ysHzkLQpEeyMRP-BEObGtA" name="SetChannels"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_5V2goLQpEeyMRP-BEObGtA" name="Set SoundInterface"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_5isCwLQpEeyMRP-BEObGtA" name="SetSignaType"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_5trKwLQpEeyMRP-BEObGtA" name="SetOutputLevel"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="__MpU4LQpEeyMRP-BEObGtA" name="CreateSignal">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5O_fILQzEeyMRP-BEObGtA" name="ExtensionPoint5"/>
+          <include xmi:type="uml:Include" xmi:id="_04UZ0LQzEeyMRP-BEObGtA" addition="_5isCwLQpEeyMRP-BEObGtA"/>
+          <include xmi:type="uml:Include" xmi:id="_1v_osLQzEeyMRP-BEObGtA" addition="_ysHzkLQpEeyMRP-BEObGtA"/>
+          <include xmi:type="uml:Include" xmi:id="_3NuK8LQzEeyMRP-BEObGtA" addition="_5V2goLQpEeyMRP-BEObGtA"/>
+          <include xmi:type="uml:Include" xmi:id="_4EW4ALQzEeyMRP-BEObGtA" addition="_5trKwLQpEeyMRP-BEObGtA"/>
+          <include xmi:type="uml:Include" xmi:id="__9kDYLRIEeyMRP-BEObGtA" addition="_QNMwMLRIEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BG_hsLQqEeyMRP-BEObGtA" name="ModifySignal">
+          <extend xmi:type="uml:Extend" xmi:id="_5O-4ELQzEeyMRP-BEObGtA" extendedCase="__MpU4LQpEeyMRP-BEObGtA" extensionLocation="_5O_fILQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_QNMwMLRIEeyMRP-BEObGtA" name="SetAveraging"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_KlENkLRJEeyMRP-BEObGtA" name="StoreRecord"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_bYw0QLRJEeyMRP-BEObGtA" name="Record Signal"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_W9fk0LQzEeyMRP-BEObGtA" memberEnd="_W9gL4LQzEeyMRP-BEObGtA _W9gL4bQzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W9fk0bQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W9fk0rQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_W9gL4LQzEeyMRP-BEObGtA" name="set soundinterface" type="_5V2goLQpEeyMRP-BEObGtA" association="_W9fk0LQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_W9gL4bQzEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_W9fk0LQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_bSB8ILQzEeyMRP-BEObGtA" memberEnd="_bSCjMLQzEeyMRP-BEObGtA _bSCjMbQzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bSB8IbQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bSB8IrQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_bSCjMLQzEeyMRP-BEObGtA" name="createsignal" type="__MpU4LQpEeyMRP-BEObGtA" association="_bSB8ILQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_bSCjMbQzEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_bSB8ILQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_c4Od4LQzEeyMRP-BEObGtA" memberEnd="_c4Od47QzEeyMRP-BEObGtA _c4Od5LQzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c4Od4bQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c4Od4rQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_c4Od47QzEeyMRP-BEObGtA" name="setchannels" type="_ysHzkLQpEeyMRP-BEObGtA" association="_c4Od4LQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_c4Od5LQzEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_c4Od4LQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_g035oLQzEeyMRP-BEObGtA" memberEnd="_g035o7QzEeyMRP-BEObGtA _g04gsLQzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g035obQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g035orQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_g035o7QzEeyMRP-BEObGtA" name="setsignatype" type="_5isCwLQpEeyMRP-BEObGtA" association="_g035oLQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_g04gsLQzEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_g035oLQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_iO0vILQzEeyMRP-BEObGtA" memberEnd="_iO1WMrQzEeyMRP-BEObGtA _iO1WM7QzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iO1WMLQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iO1WMbQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_iO1WMrQzEeyMRP-BEObGtA" name="setoutputlevel" type="_5trKwLQpEeyMRP-BEObGtA" association="_iO0vILQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_iO1WM7QzEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_iO0vILQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_lTrAMLQzEeyMRP-BEObGtA" memberEnd="_lTrnQrQzEeyMRP-BEObGtA _lTrnQ7QzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lTrnQLQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lTrnQbQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_lTrnQrQzEeyMRP-BEObGtA" name="modifysignal" type="_BG_hsLQqEeyMRP-BEObGtA" association="_lTrAMLQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_lTrnQ7QzEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_lTrAMLQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_nchjELQzEeyMRP-BEObGtA" memberEnd="_nchjE7QzEeyMRP-BEObGtA _nciKILQzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nchjEbQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nchjErQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_nchjE7QzEeyMRP-BEObGtA" name="sendtosoundsystem" type="_FAe7wLQqEeyMRP-BEObGtA" association="_nchjELQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_nciKILQzEeyMRP-BEObGtA" name="soundinterface" type="_m1foALQiEeyMRP-BEObGtA" association="_nchjELQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_pARNwLQzEeyMRP-BEObGtA" memberEnd="_pAR00rQzEeyMRP-BEObGtA _pAR007QzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pAR00LQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pAR00bQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_pAR00rQzEeyMRP-BEObGtA" name="converttosoundwaves" type="_HGfmALQqEeyMRP-BEObGtA" association="_pARNwLQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_pAR007QzEeyMRP-BEObGtA" name="sendtosoundsystem" type="_FAe7wLQqEeyMRP-BEObGtA" association="_pARNwLQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_rgCb0LQzEeyMRP-BEObGtA" memberEnd="_rgDC4rQzEeyMRP-BEObGtA _rgDC47QzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rgDC4LQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rgDC4bQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_rgDC4rQzEeyMRP-BEObGtA" name="microphone" type="_qAm5ILQiEeyMRP-BEObGtA" association="_rgCb0LQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_rgDC47QzEeyMRP-BEObGtA" name="converttosoundwaves" type="_HGfmALQqEeyMRP-BEObGtA" association="_rgCb0LQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tgVfoLQzEeyMRP-BEObGtA" memberEnd="_tgWGsrQzEeyMRP-BEObGtA _tgWGs7QzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tgWGsLQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tgWGsbQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tgWGsrQzEeyMRP-BEObGtA" name="modifysignal" type="_BG_hsLQqEeyMRP-BEObGtA" association="_tgVfoLQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tgWGs7QzEeyMRP-BEObGtA" name="displayfeedback" type="_C9w2ELQqEeyMRP-BEObGtA" association="_tgVfoLQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_9SJLgLQzEeyMRP-BEObGtA" memberEnd="_9SJykrQzEeyMRP-BEObGtA _9SJyk7QzEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9SJykLQzEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9SJykbQzEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_9SJykrQzEeyMRP-BEObGtA" name="soundinterface" type="_m1foALQiEeyMRP-BEObGtA" association="_9SJLgLQzEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_9SJyk7QzEeyMRP-BEObGtA" name="createsignal" type="__MpU4LQpEeyMRP-BEObGtA" association="_9SJLgLQzEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_HxQ1wLQ0EeyMRP-BEObGtA" memberEnd="_HxRc0bQ0EeyMRP-BEObGtA _HxRc0rQ0EeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HxQ1wbQ0EeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HxRc0LQ0EeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_HxRc0bQ0EeyMRP-BEObGtA" name="soundinterface" type="_m1foALQiEeyMRP-BEObGtA" association="_HxQ1wLQ0EeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_HxRc0rQ0EeyMRP-BEObGtA" name="microphone" type="_qAm5ILQiEeyMRP-BEObGtA" association="_HxQ1wLQ0EeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_OtUo8LQ0EeyMRP-BEObGtA" memberEnd="_OtVQArQ0EeyMRP-BEObGtA _OtVQA7Q0EeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OtVQALQ0EeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OtVQAbQ0EeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_OtVQArQ0EeyMRP-BEObGtA" name="displayfeedback" type="_C9w2ELQqEeyMRP-BEObGtA" association="_OtUo8LQ0EeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_OtVQA7Q0EeyMRP-BEObGtA" name="soundinterface" type="_m1foALQiEeyMRP-BEObGtA" association="_OtUo8LQ0EeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_-Zu5ILRIEeyMRP-BEObGtA" memberEnd="_-ZvgMrRIEeyMRP-BEObGtA _-ZvgM7RIEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-ZvgMLRIEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-ZvgMbRIEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-ZvgMrRIEeyMRP-BEObGtA" name="setaveraging" type="_QNMwMLRIEeyMRP-BEObGtA" association="_-Zu5ILRIEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-ZvgM7RIEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_-Zu5ILRIEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_jlBEALRJEeyMRP-BEObGtA" memberEnd="_jlBrErRJEeyMRP-BEObGtA _jlBrE7RJEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jlBrELRJEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jlBrEbRJEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jlBrErRJEeyMRP-BEObGtA" name="record signal" type="_bYw0QLRJEeyMRP-BEObGtA" association="_jlBEALRJEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jlBrE7RJEeyMRP-BEObGtA" name="soundinterface" type="_m1foALQiEeyMRP-BEObGtA" association="_jlBEALRJEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_kmXMQLRJEeyMRP-BEObGtA" memberEnd="_kmXzUrRJEeyMRP-BEObGtA _kmXzU7RJEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kmXzULRJEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kmXzUbRJEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_kmXzUrRJEeyMRP-BEObGtA" name="storerecord" type="_KlENkLRJEeyMRP-BEObGtA" association="_kmXMQLRJEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_kmXzU7RJEeyMRP-BEObGtA" name="record signal" type="_bYw0QLRJEeyMRP-BEObGtA" association="_kmXMQLRJEeyMRP-BEObGtA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_mSPfQLRJEeyMRP-BEObGtA" memberEnd="_mSQGUrRJEeyMRP-BEObGtA _mSQGU7RJEeyMRP-BEObGtA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mSQGULRJEeyMRP-BEObGtA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mSQGUbRJEeyMRP-BEObGtA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_mSQGUrRJEeyMRP-BEObGtA" name="storerecord" type="_KlENkLRJEeyMRP-BEObGtA" association="_mSPfQLRJEeyMRP-BEObGtA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_mSQGU7RJEeyMRP-BEObGtA" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_mSPfQLRJEeyMRP-BEObGtA"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__xyN0LQfEeyMRP-BEObGtA" name="ProcessingUseCases">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dLecsLTFEeyfYKMNUAT8Jg">
+          <body>Is signal Generation a recording process OR a Processing Process?</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_XZCyMLRQEeyaGpI-GUmn3w" name="Averaging"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_b1o5ULRQEeyaGpI-GUmn3w" name="RMS">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ALTjcLRUEeyaGpI-GUmn3w" name="ExtensionPoint1"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Dxj4cbRUEeyaGpI-GUmn3w" name="ExtensionPoint2"/>
+          <include xmi:type="uml:Include" xmi:id="_EmeuQLRUEeyaGpI-GUmn3w" addition="_qbpOgLRSEeyaGpI-GUmn3w"/>
+          <include xmi:type="uml:Include" xmi:id="_FX9OgLRUEeyaGpI-GUmn3w" addition="_scwxsLRSEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_fd9q4LRQEeyaGpI-GUmn3w" name="SilenceDetection"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_he5A0LRQEeyaGpI-GUmn3w" name="CalculateLevel"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_H-0DYLRREeyaGpI-GUmn3w" memberEnd="_H-14kLRREeyaGpI-GUmn3w _H-14kbRREeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H-1RgLRREeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H-1RgbRREeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_H-14kLRREeyaGpI-GUmn3w" name="averaging" type="_XZCyMLRQEeyaGpI-GUmn3w" association="_H-0DYLRREeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_H-14kbRREeyaGpI-GUmn3w" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_H-0DYLRREeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_JV_RsLRREeyaGpI-GUmn3w" memberEnd="_JWAf0rRREeyaGpI-GUmn3w _JWAf07RREeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JWAf0LRREeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JWAf0bRREeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_JWAf0rRREeyaGpI-GUmn3w" name="rms" type="_b1o5ULRQEeyaGpI-GUmn3w" association="_JV_RsLRREeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_JWAf07RREeyaGpI-GUmn3w" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_JV_RsLRREeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_KWUGQLRREeyaGpI-GUmn3w" memberEnd="_KWUtUrRREeyaGpI-GUmn3w _KWUtU7RREeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KWUtULRREeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KWUtUbRREeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_KWUtUrRREeyaGpI-GUmn3w" name="silencedetection" type="_fd9q4LRQEeyaGpI-GUmn3w" association="_KWUGQLRREeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_KWUtU7RREeyaGpI-GUmn3w" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_KWUGQLRREeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_LU4AQLRREeyaGpI-GUmn3w" memberEnd="_LU4nUbRREeyaGpI-GUmn3w _LU4nUrRREeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LU4AQbRREeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LU4nULRREeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_LU4nUbRREeyaGpI-GUmn3w" name="calculatelevel" type="_he5A0LRQEeyaGpI-GUmn3w" association="_LU4AQLRREeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_LU4nUrRREeyaGpI-GUmn3w" name="recordengineer" type="_a2Rc8LQiEeyMRP-BEObGtA" association="_LU4AQLRREeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_mvlo8LRREeyaGpI-GUmn3w" name="FFT">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_PZSJgbRUEeyaGpI-GUmn3w" name="ExtensionPoint1"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QcwYsbRUEeyaGpI-GUmn3w" name="ExtensionPoint2"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vdt6cLTEEeyfYKMNUAT8Jg" name="ExtensionPoint3"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wk9PUbTEEeyfYKMNUAT8Jg" name="ExtensionPoint4"/>
+          <include xmi:type="uml:Include" xmi:id="_x6amYLTEEeyfYKMNUAT8Jg" addition="_uaJg4LRREeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_o7jKMLRREeyaGpI-GUmn3w" name="Windowing"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_uaJg4LRREeyaGpI-GUmn3w" name="Octave Bands"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_xek7MLRREeyaGpI-GUmn3w" name="AmplitudeSpectrum">
+          <extend xmi:type="uml:Extend" xmi:id="_PZSJgLRUEeyaGpI-GUmn3w" extendedCase="_mvlo8LRREeyaGpI-GUmn3w" extensionLocation="_PZSJgbRUEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_6zSAwLRREeyaGpI-GUmn3w" name="ResponseFunction">
+          <include xmi:type="uml:Include" xmi:id="_tYDOcLTEEeyfYKMNUAT8Jg" addition="_-06DILRREeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_-06DILRREeyaGpI-GUmn3w" name="ImpulseResponse"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_B3YVoLRSEeyaGpI-GUmn3w" name="PowerSpectrum">
+          <extend xmi:type="uml:Extend" xmi:id="_QcwYsLRUEeyaGpI-GUmn3w" extendedCase="_mvlo8LRREeyaGpI-GUmn3w" extensionLocation="_QcwYsbRUEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_Jn2oULRSEeyaGpI-GUmn3w" name="SpectralDensity">
+          <extend xmi:type="uml:Extend" xmi:id="_vdssULTEEeyfYKMNUAT8Jg" extendedCase="_mvlo8LRREeyaGpI-GUmn3w" extensionLocation="_vdt6cLTEEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_Lpl2kLRSEeyaGpI-GUmn3w" name="PowerSpectralDensity">
+          <extend xmi:type="uml:Extend" xmi:id="_wk9PULTEEeyfYKMNUAT8Jg" extendedCase="_mvlo8LRREeyaGpI-GUmn3w" extensionLocation="_wk9PUbTEEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_aFdqQLRSEeyaGpI-GUmn3w" name="Spectogram">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_H67hkLRUEeyaGpI-GUmn3w" name="ExtensionPoint1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_c5cNwLRSEeyaGpI-GUmn3w" name="OverlapAdd">
+          <extend xmi:type="uml:Extend" xmi:id="_H666gLRUEeyaGpI-GUmn3w" extendedCase="_aFdqQLRSEeyaGpI-GUmn3w" extensionLocation="_H67hkLRUEeyaGpI-GUmn3w"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_4dZLMLTEEeyfYKMNUAT8Jg" name="ExtensionPoint2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_qbpOgLRSEeyaGpI-GUmn3w" name="RMSf"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_scwxsLRSEeyaGpI-GUmn3w" name="RMSe"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_xFRN4LRSEeyaGpI-GUmn3w" name="CrestFactor">
+          <extend xmi:type="uml:Extend" xmi:id="_ALSVULRUEeyaGpI-GUmn3w" extendedCase="_b1o5ULRQEeyaGpI-GUmn3w" extensionLocation="_ALTjcLRUEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_zfktILRSEeyaGpI-GUmn3w" name="PAPR">
+          <extend xmi:type="uml:Extend" xmi:id="_Dxj4cLRUEeyaGpI-GUmn3w" extendedCase="_b1o5ULRQEeyaGpI-GUmn3w" extensionLocation="_Dxj4cbRUEeyaGpI-GUmn3w"/>
+          <include xmi:type="uml:Include" xmi:id="_DAmVkLRUEeyaGpI-GUmn3w" addition="_7DZD4LRSEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_7DZD4LRSEeyaGpI-GUmn3w" name="PAPR-dB"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_Du2YILRTEeyaGpI-GUmn3w" name="T60">
+          <include xmi:type="uml:Include" xmi:id="_Bzj6sLRUEeyaGpI-GUmn3w" addition="_FFc-sLRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_FFc-sLRTEeyaGpI-GUmn3w" name="Sabine"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_I-uWULRTEeyaGpI-GUmn3w" name="MovingAvarage"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_rl4-oLRTEeyaGpI-GUmn3w" name="Set Weighting"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_04l5ELRTEeyaGpI-GUmn3w" memberEnd="_04mgIrRTEeyaGpI-GUmn3w _04mgI7RTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_04mgILRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_04mgIbRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_04mgIrRTEeyaGpI-GUmn3w" name="responsefunction" type="_6zSAwLRREeyaGpI-GUmn3w" association="_04l5ELRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_04mgI7RTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_04l5ELRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_24AMELRTEeyaGpI-GUmn3w" memberEnd="_24AzIrRTEeyaGpI-GUmn3w _24AzI7RTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_24AzILRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_24AzIbRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_24AzIrRTEeyaGpI-GUmn3w" name="windowing" type="_o7jKMLRREeyaGpI-GUmn3w" association="_24AMELRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_24AzI7RTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_24AMELRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_37zLYLRTEeyaGpI-GUmn3w" memberEnd="_37zycrRTEeyaGpI-GUmn3w _37zyc7RTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_37zycLRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_37zycbRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_37zycrRTEeyaGpI-GUmn3w" name="fft" type="_mvlo8LRREeyaGpI-GUmn3w" association="_37zLYLRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_37zyc7RTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_37zLYLRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_5t4NALRTEeyaGpI-GUmn3w" memberEnd="_5t40ErRTEeyaGpI-GUmn3w _5t40E7RTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t40ELRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5t40EbRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5t40ErRTEeyaGpI-GUmn3w" name="spectogram" type="_aFdqQLRSEeyaGpI-GUmn3w" association="_5t4NALRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5t40E7RTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_5t4NALRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_6iXlALRTEeyaGpI-GUmn3w" memberEnd="_6iYMErRTEeyaGpI-GUmn3w _6iYME7RTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6iYMELRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6iYMEbRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_6iYMErRTEeyaGpI-GUmn3w" name="set weighting" type="_rl4-oLRTEeyaGpI-GUmn3w" association="_6iXlALRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_6iYME7RTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_6iXlALRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7W71gLRTEeyaGpI-GUmn3w" memberEnd="_7W8ckrRTEeyaGpI-GUmn3w _7W8ck7RTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7W8ckLRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7W8ckbRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7W8ckrRTEeyaGpI-GUmn3w" name="rms" type="_b1o5ULRQEeyaGpI-GUmn3w" association="_7W71gLRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7W8ck7RTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_7W71gLRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_8c5_ELRTEeyaGpI-GUmn3w" memberEnd="_8c5_E7RTEeyaGpI-GUmn3w _8c6mILRTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8c5_EbRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8c5_ErRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_8c5_E7RTEeyaGpI-GUmn3w" name="crestfactor" type="_xFRN4LRSEeyaGpI-GUmn3w" association="_8c5_ELRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_8c6mILRTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_8c5_ELRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_9cpk0LRTEeyaGpI-GUmn3w" memberEnd="_9cqL4rRTEeyaGpI-GUmn3w _9cqL47RTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9cqL4LRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9cqL4bRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_9cqL4rRTEeyaGpI-GUmn3w" name="t60" type="_Du2YILRTEeyaGpI-GUmn3w" association="_9cpk0LRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_9cqL47RTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_9cpk0LRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_-mAZkLRTEeyaGpI-GUmn3w" memberEnd="_-mBAobRTEeyaGpI-GUmn3w _-mBAorRTEeyaGpI-GUmn3w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-mAZkbRTEeyaGpI-GUmn3w" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-mBAoLRTEeyaGpI-GUmn3w" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-mBAobRTEeyaGpI-GUmn3w" name="movingavarage" type="_I-uWULRTEeyaGpI-GUmn3w" association="_-mAZkLRTEeyaGpI-GUmn3w"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-mBAorRTEeyaGpI-GUmn3w" name="analyst" type="_YaZQYLQiEeyMRP-BEObGtA" association="_-mAZkLRTEeyaGpI-GUmn3w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_zxsRELTEEeyfYKMNUAT8Jg" name="OverlapCharteristics">
+          <extend xmi:type="uml:Extend" xmi:id="_4dYkILTEEeyfYKMNUAT8Jg" extendedCase="_c5cNwLRSEeyaGpI-GUmn3w" extensionLocation="_4dZLMLTEEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_uBzvoLQgEeyMRP-BEObGtA" name="UiUseCases">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_w1ooQLTHEeyfYKMNUAT8Jg">
+          <body>See CRUD: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+basically i have the same on project level --> Create project, Read project, Modify project (add or remove recordings) AND Delete project</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_C9w2ELQqEeyMRP-BEObGtA" name="DisplayFeedback"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_V3sQkLTGEeyfYKMNUAT8Jg" name="RunSetup.py">
+          <extend xmi:type="uml:Extend" xmi:id="_easzcLTGEeyfYKMNUAT8Jg" extendedCase="_ZFd0ILTGEeyfYKMNUAT8Jg" extensionLocation="_easzcbTGEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_ZFd0ILTGEeyfYKMNUAT8Jg" name="RunMain.py">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_easzcbTGEeyfYKMNUAT8Jg" name="ExtensionPoint1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_WtZ7ILTHEeyfYKMNUAT8Jg" name="NewProject"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_aGfW0LTHEeyfYKMNUAT8Jg" name="OpenExistingProject"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_ed5b8LTHEeyfYKMNUAT8Jg" name="DeleteProject"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_kGtekLTHEeyfYKMNUAT8Jg" name="ModifyProject">
+          <include xmi:type="uml:Include" xmi:id="_BHP1kLTIEeyfYKMNUAT8Jg" addition="_moPnMLTHEeyfYKMNUAT8Jg"/>
+          <include xmi:type="uml:Include" xmi:id="_Ck-X0LTIEeyfYKMNUAT8Jg" addition="_1u8gkLTHEeyfYKMNUAT8Jg"/>
+          <include xmi:type="uml:Include" xmi:id="_FSCbALTIEeyfYKMNUAT8Jg" addition="_7Cfd0LTHEeyfYKMNUAT8Jg"/>
+          <include xmi:type="uml:Include" xmi:id="_NQUgMLTIEeyfYKMNUAT8Jg" addition="_KNlH8LTIEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_moPnMLTHEeyfYKMNUAT8Jg" name="AddMeasurement"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_1u8gkLTHEeyfYKMNUAT8Jg" name="DeleteMeasurement"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_7Cfd0LTHEeyfYKMNUAT8Jg" name="ModifyProjectInfo"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_KNlH8LTIEeyfYKMNUAT8Jg" name="ModifyMeasurementInfo"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_7ISuYLTIEeyfYKMNUAT8Jg" name="AddWidget">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Dnp1oLTwEeyEmKPs05t4ww" name="ExtensionPoint3"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_JidAIbTwEeyEmKPs05t4ww" name="ExtensionPoint4"/>
+          <include xmi:type="uml:Include" xmi:id="_AG_yULTwEeyEmKPs05t4ww" addition="_AEVxoLTJEeyfYKMNUAT8Jg"/>
+          <include xmi:type="uml:Include" xmi:id="_BohPcLTwEeyEmKPs05t4ww" addition="_9a3N8LTIEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_9a3N8LTIEeyfYKMNUAT8Jg" name="OpenrecordingWidget">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EvOhsLTwEeyEmKPs05t4ww" name="ExtensionPoint1"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KsDsgLTwEeyEmKPs05t4ww" name="ExtensionPoint2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_AEVxoLTJEeyfYKMNUAT8Jg" name="AddProcessingWidget">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F0KJcbTwEeyEmKPs05t4ww" name="ExtensionPoint1"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ig8f0LTwEeyEmKPs05t4ww" name="ExtensionPoint2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_Ka3rULTvEeyEmKPs05t4ww" name="CreateViewPoint">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_y6b08LTwEeyEmKPs05t4ww" name="ExtensionPoint1"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zj3McbTwEeyEmKPs05t4ww" name="ExtensionPoint2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_S9d-gLTvEeyEmKPs05t4ww" name="DeleteViewPoint">
+          <extend xmi:type="uml:Extend" xmi:id="_zj3McLTwEeyEmKPs05t4ww" extendedCase="_Ka3rULTvEeyEmKPs05t4ww" extensionLocation="_zj3McbTwEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_Wn3MoLTvEeyEmKPs05t4ww" name="UpdateViewPoint">
+          <extend xmi:type="uml:Extend" xmi:id="_y6bN4LTwEeyEmKPs05t4ww" extendedCase="_Ka3rULTvEeyEmKPs05t4ww" extensionLocation="_y6b08LTwEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_cZQjgLTvEeyEmKPs05t4ww" name="CloseWidget">
+          <extend xmi:type="uml:Extend" xmi:id="_DnpOkLTwEeyEmKPs05t4ww" extendedCase="_7ISuYLTIEeyfYKMNUAT8Jg" extensionLocation="_Dnp1oLTwEeyEmKPs05t4ww"/>
+          <extend xmi:type="uml:Extend" xmi:id="_EvN6oLTwEeyEmKPs05t4ww" extendedCase="_9a3N8LTIEeyfYKMNUAT8Jg" extensionLocation="_EvOhsLTwEeyEmKPs05t4ww"/>
+          <extend xmi:type="uml:Extend" xmi:id="_F0KJcLTwEeyEmKPs05t4ww" extendedCase="_AEVxoLTJEeyfYKMNUAT8Jg" extensionLocation="_F0KJcbTwEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_emeB8LTvEeyEmKPs05t4ww" name="AttachWidgetsToEachother">
+          <extend xmi:type="uml:Extend" xmi:id="_Ig74wLTwEeyEmKPs05t4ww" extendedCase="_AEVxoLTJEeyfYKMNUAT8Jg" extensionLocation="_Ig8f0LTwEeyEmKPs05t4ww"/>
+          <extend xmi:type="uml:Extend" xmi:id="_JidAILTwEeyEmKPs05t4ww" extendedCase="_7ISuYLTIEeyfYKMNUAT8Jg" extensionLocation="_JidAIbTwEeyEmKPs05t4ww"/>
+          <extend xmi:type="uml:Extend" xmi:id="_KsDFcLTwEeyEmKPs05t4ww" extendedCase="_9a3N8LTIEeyfYKMNUAT8Jg" extensionLocation="_KsDsgLTwEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_cIjKoLTGEeyfYKMNUAT8Jg" memberEnd="_cIjxsrTGEeyfYKMNUAT8Jg _cIkYwLTGEeyfYKMNUAT8Jg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cIjxsLTGEeyfYKMNUAT8Jg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cIjxsbTGEeyfYKMNUAT8Jg" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_cIjxsrTGEeyfYKMNUAT8Jg" name="runsetup.py" type="_V3sQkLTGEeyfYKMNUAT8Jg" association="_cIjKoLTGEeyfYKMNUAT8Jg"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_cIkYwLTGEeyfYKMNUAT8Jg" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_cIjKoLTGEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_dDgXALTGEeyfYKMNUAT8Jg" memberEnd="_dDg-ELTGEeyfYKMNUAT8Jg _dDg-EbTGEeyfYKMNUAT8Jg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dDgXAbTGEeyfYKMNUAT8Jg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dDgXArTGEeyfYKMNUAT8Jg" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_dDg-ELTGEeyfYKMNUAT8Jg" name="runmain.py" type="_ZFd0ILTGEeyfYKMNUAT8Jg" association="_dDgXALTGEeyfYKMNUAT8Jg"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_dDg-EbTGEeyfYKMNUAT8Jg" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_dDgXALTGEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_gfBJsLTIEeyfYKMNUAT8Jg" memberEnd="_gfBwwrTIEeyfYKMNUAT8Jg _gfBww7TIEeyfYKMNUAT8Jg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gfBwwLTIEeyfYKMNUAT8Jg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gfBwwbTIEeyfYKMNUAT8Jg" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_gfBwwrTIEeyfYKMNUAT8Jg" name="newproject" type="_WtZ7ILTHEeyfYKMNUAT8Jg" association="_gfBJsLTIEeyfYKMNUAT8Jg"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_gfBww7TIEeyfYKMNUAT8Jg" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_gfBJsLTIEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_h4v8wLTIEeyfYKMNUAT8Jg" memberEnd="_h4v8w7TIEeyfYKMNUAT8Jg _h4wj0LTIEeyfYKMNUAT8Jg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h4v8wbTIEeyfYKMNUAT8Jg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h4v8wrTIEeyfYKMNUAT8Jg" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_h4v8w7TIEeyfYKMNUAT8Jg" name="openexistingproject" type="_aGfW0LTHEeyfYKMNUAT8Jg" association="_h4v8wLTIEeyfYKMNUAT8Jg"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_h4wj0LTIEeyfYKMNUAT8Jg" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_h4v8wLTIEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ip4ewLTIEeyfYKMNUAT8Jg" memberEnd="_ip4ew7TIEeyfYKMNUAT8Jg _ip4exLTIEeyfYKMNUAT8Jg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ip4ewbTIEeyfYKMNUAT8Jg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ip4ewrTIEeyfYKMNUAT8Jg" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ip4ew7TIEeyfYKMNUAT8Jg" name="deleteproject" type="_ed5b8LTHEeyfYKMNUAT8Jg" association="_ip4ewLTIEeyfYKMNUAT8Jg"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ip4exLTIEeyfYKMNUAT8Jg" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_ip4ewLTIEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_jh9WQLTIEeyfYKMNUAT8Jg" memberEnd="_jh99UrTIEeyfYKMNUAT8Jg _jh99U7TIEeyfYKMNUAT8Jg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jh99ULTIEeyfYKMNUAT8Jg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jh99UbTIEeyfYKMNUAT8Jg" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jh99UrTIEeyfYKMNUAT8Jg" name="modifyproject" type="_kGtekLTHEeyfYKMNUAT8Jg" association="_jh9WQLTIEeyfYKMNUAT8Jg"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jh99U7TIEeyfYKMNUAT8Jg" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_jh9WQLTIEeyfYKMNUAT8Jg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GxM18LTvEeyEmKPs05t4ww" memberEnd="_GxRucLTvEeyEmKPs05t4ww _GxTjoLTvEeyEmKPs05t4ww">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GxQgULTvEeyEmKPs05t4ww" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GxRHYLTvEeyEmKPs05t4ww" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_GxRucLTvEeyEmKPs05t4ww" name="addwidget" type="_7ISuYLTIEeyfYKMNUAT8Jg" association="_GxM18LTvEeyEmKPs05t4ww"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_GxTjoLTvEeyEmKPs05t4ww" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_GxM18LTvEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_IJ_N0LTvEeyEmKPs05t4ww" memberEnd="_IKAb8rTvEeyEmKPs05t4ww _IKAb87TvEeyEmKPs05t4ww">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IKAb8LTvEeyEmKPs05t4ww" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IKAb8bTvEeyEmKPs05t4ww" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_IKAb8rTvEeyEmKPs05t4ww" name="openrecordingwidget" type="_9a3N8LTIEeyfYKMNUAT8Jg" association="_IJ_N0LTvEeyEmKPs05t4ww"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_IKAb87TvEeyEmKPs05t4ww" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_IJ_N0LTvEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_JOKAkLTvEeyEmKPs05t4ww" memberEnd="_JOKnorTvEeyEmKPs05t4ww _JOKno7TvEeyEmKPs05t4ww">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JOKnoLTvEeyEmKPs05t4ww" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JOKnobTvEeyEmKPs05t4ww" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_JOKnorTvEeyEmKPs05t4ww" name="addprocessingwidget" type="_AEVxoLTJEeyfYKMNUAT8Jg" association="_JOKAkLTvEeyEmKPs05t4ww"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_JOKno7TvEeyEmKPs05t4ww" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_JOKAkLTvEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_jNzZcLTvEeyEmKPs05t4ww" memberEnd="_jN0nkLTvEeyEmKPs05t4ww _jN0nkbTvEeyEmKPs05t4ww">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jN0AgLTvEeyEmKPs05t4ww" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jN0AgbTvEeyEmKPs05t4ww" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jN0nkLTvEeyEmKPs05t4ww" name="closewidget" type="_cZQjgLTvEeyEmKPs05t4ww" association="_jNzZcLTvEeyEmKPs05t4ww"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jN0nkbTvEeyEmKPs05t4ww" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_jNzZcLTvEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="__FBX8LTvEeyEmKPs05t4ww" memberEnd="__FB_ArTvEeyEmKPs05t4ww __FB_A7TvEeyEmKPs05t4ww">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__FB_ALTvEeyEmKPs05t4ww" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__FB_AbTvEeyEmKPs05t4ww" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="__FB_ArTvEeyEmKPs05t4ww" name="attachwidgetstoeachother" type="_emeB8LTvEeyEmKPs05t4ww" association="__FBX8LTvEeyEmKPs05t4ww"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="__FB_A7TvEeyEmKPs05t4ww" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="__FBX8LTvEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_xfb2kLTwEeyEmKPs05t4ww" memberEnd="_xfcdorTwEeyEmKPs05t4ww _xfdEsLTwEeyEmKPs05t4ww">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xfcdoLTwEeyEmKPs05t4ww" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xfcdobTwEeyEmKPs05t4ww" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_xfcdorTwEeyEmKPs05t4ww" name="createviewpoint" type="_Ka3rULTvEeyEmKPs05t4ww" association="_xfb2kLTwEeyEmKPs05t4ww"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_xfdEsLTwEeyEmKPs05t4ww" name="user" type="_TRv7kLQiEeyMRP-BEObGtA" association="_xfb2kLTwEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_0c0Q4LT0EeyEmKPs05t4ww" name="StartSoftware" node="_BaAgELT1EeyEmKPs05t4ww _MwyLELT1EeyEmKPs05t4ww _t7kvcLUKEeyEmKPs05t4ww _9jNLoLUKEeyEmKPs05t4ww _DhMNALULEeyEmKPs05t4ww _zMuaMLVxEeyFIrZSh2CYcQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_437-ALXIEey_qchgWZmbRQ">
+            <body>IF the Software hasn't run before THEN Setup.py must run ELSE Main.py is allowed to run.
+Setup.py install all required dependencies. After installation of the libraries the Main.py run the mainwindow.</body>
+          </ownedComment>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_dZH2ULT1EeyEmKPs05t4ww" target="_MwyLELT1EeyEmKPs05t4ww" source="_BaAgELT1EeyEmKPs05t4ww"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_9elOgLUDEeyEmKPs05t4ww" target="_zMuaMLVxEeyFIrZSh2CYcQ" source="_MwyLELT1EeyEmKPs05t4ww">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_PLy3ILUEEeyEmKPs05t4ww"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ZEQiULUKEeyEmKPs05t4ww" target="_t7kvcLUKEeyEmKPs05t4ww" source="_MwyLELT1EeyEmKPs05t4ww">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_dlOMELUKEeyEmKPs05t4ww" value="true"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_zSAooLUKEeyEmKPs05t4ww" target="_zMuaMLVxEeyFIrZSh2CYcQ" source="_t7kvcLUKEeyEmKPs05t4ww"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Az118LULEeyEmKPs05t4ww" target="_9jNLoLUKEeyEmKPs05t4ww" source="_zMuaMLVxEeyFIrZSh2CYcQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Ff7xoLULEeyEmKPs05t4ww" target="_DhMNALULEeyEmKPs05t4ww" source="_9jNLoLUKEeyEmKPs05t4ww"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_BaAgELT1EeyEmKPs05t4ww" name="Initial" outgoing="_dZH2ULT1EeyEmKPs05t4ww"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_MwyLELT1EeyEmKPs05t4ww" name="FirstRun" incoming="_dZH2ULT1EeyEmKPs05t4ww" outgoing="_9elOgLUDEeyEmKPs05t4ww _ZEQiULUKEeyEmKPs05t4ww"/>
+          <node xmi:type="uml:ReadExtentAction" xmi:id="_t7kvcLUKEeyEmKPs05t4ww" name="RunSetup.py" incoming="_ZEQiULUKEeyEmKPs05t4ww" outgoing="_zSAooLUKEeyEmKPs05t4ww" classifier="_V3sQkLTGEeyfYKMNUAT8Jg"/>
+          <node xmi:type="uml:ReadExtentAction" xmi:id="_9jNLoLUKEeyEmKPs05t4ww" name="runMain.py" incoming="_Az118LULEeyEmKPs05t4ww" outgoing="_Ff7xoLULEeyEmKPs05t4ww" classifier="_ZFd0ILTGEeyfYKMNUAT8Jg"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_DhMNALULEeyEmKPs05t4ww" name="Final" incoming="_Ff7xoLULEeyEmKPs05t4ww"/>
+          <node xmi:type="uml:MergeNode" xmi:id="_zMuaMLVxEeyFIrZSh2CYcQ" name="MergeNode13" incoming="_zSAooLUKEeyEmKPs05t4ww _9elOgLUDEeyEmKPs05t4ww" outgoing="_Az118LULEeyEmKPs05t4ww"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_4xAnAMpKEeyRcbBqJb7-PA" name="StartRecording" node="__NZboMpKEeyRcbBqJb7-PA _G0tLQMpLEeyRcbBqJb7-PA _cgAaEMpLEeyRcbBqJb7-PA _igxpsMpLEeyRcbBqJb7-PA _5nJIUMpLEeyRcbBqJb7-PA _8fkuAMpLEeyRcbBqJb7-PA _LPgGIMpMEeyRcbBqJb7-PA">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_L6pxYMpLEeyRcbBqJb7-PA" target="_G0tLQMpLEeyRcbBqJb7-PA" source="__NZboMpKEeyRcbBqJb7-PA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_2my8wMpLEeyRcbBqJb7-PA" target="_cgAaEMpLEeyRcbBqJb7-PA" source="_G0tLQMpLEeyRcbBqJb7-PA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_A4X6QMpMEeyRcbBqJb7-PA" target="_igxpsMpLEeyRcbBqJb7-PA" source="_G0tLQMpLEeyRcbBqJb7-PA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_I_t00MpMEeyRcbBqJb7-PA" target="_5nJIUMpLEeyRcbBqJb7-PA" source="_igxpsMpLEeyRcbBqJb7-PA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_KFysEMpMEeyRcbBqJb7-PA" target="_8fkuAMpLEeyRcbBqJb7-PA" source="_5nJIUMpLEeyRcbBqJb7-PA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_N17V0MpMEeyRcbBqJb7-PA" target="_LPgGIMpMEeyRcbBqJb7-PA" source="_8fkuAMpLEeyRcbBqJb7-PA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Pp3_sMpMEeyRcbBqJb7-PA" target="_LPgGIMpMEeyRcbBqJb7-PA" source="_cgAaEMpLEeyRcbBqJb7-PA"/>
+          <node xmi:type="uml:InitialNode" xmi:id="__NZboMpKEeyRcbBqJb7-PA" name="InitialNode1" outgoing="_L6pxYMpLEeyRcbBqJb7-PA"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_G0tLQMpLEeyRcbBqJb7-PA" name="ForkNode2" incoming="_L6pxYMpLEeyRcbBqJb7-PA" outgoing="_2my8wMpLEeyRcbBqJb7-PA _A4X6QMpMEeyRcbBqJb7-PA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_cgAaEMpLEeyRcbBqJb7-PA" name="Shortcut: Ctrl+N" incoming="_2my8wMpLEeyRcbBqJb7-PA" outgoing="_Pp3_sMpMEeyRcbBqJb7-PA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_igxpsMpLEeyRcbBqJb7-PA" name="Click: Edit Menu" incoming="_A4X6QMpMEeyRcbBqJb7-PA" outgoing="_I_t00MpMEeyRcbBqJb7-PA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_5nJIUMpLEeyRcbBqJb7-PA" name="Select: New Measurement" incoming="_I_t00MpMEeyRcbBqJb7-PA" outgoing="_KFysEMpMEeyRcbBqJb7-PA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_8fkuAMpLEeyRcbBqJb7-PA" name="Click: New Measurement" incoming="_KFysEMpMEeyRcbBqJb7-PA" outgoing="_N17V0MpMEeyRcbBqJb7-PA"/>
+          <node xmi:type="uml:JoinNode" xmi:id="_LPgGIMpMEeyRcbBqJb7-PA" name="JoinNode12" incoming="_N17V0MpMEeyRcbBqJb7-PA _Pp3_sMpMEeyRcbBqJb7-PA"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_PR_88LQsEeyMRP-BEObGtA" name="ExternalDomain">
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_FAe7wLQqEeyMRP-BEObGtA" name="SendToSoundSystem"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_HGfmALQqEeyMRP-BEObGtA" name="ConvertToSoundwaves"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-cPKYGF4EeuwC-FXYqxZdg" name="TestCases"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hfNxwLQgEeyMRP-BEObGtA" name="old_setup_recording">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_oN_KEGF5EeuwC-FXYqxZdg" annotatedElement="_jIX7IGF5EeuwC-FXYqxZdg">
+      <body>Think of:&#xD;
+- date&#xD;
+- location&#xD;
+- reason of project&#xD;
+- setup&#xD;
+- default noise type + data&#xD;
+- additional information like photos etc&#xD;
+- comments&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_kVYEUGF6EeuwC-FXYqxZdg" annotatedElement="_ZAj9oGF5EeuwC-FXYqxZdg">
+      <body>Recording data have following information:&#xD;
+- setup&#xD;
+- (default )recoring range&#xD;
+- (default )sweep type&#xD;
+- (default )sweep length&#xD;
+- (default )sweep repeats&#xD;
+- (default )noise type and data (if used)&#xD;
+- results (recorded audio)&#xD;
+- temperture&#xD;
+- humidity&#xD;
+- additional info</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_qWVrwGF7EeuwC-FXYqxZdg" annotatedElement="_VB-9UGF7EeuwC-FXYqxZdg">
+      <body>To be desided if processed data is part of project or part of recording</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_L4rIEGF-EeuwC-FXYqxZdg" annotatedElement="_65NWQGF9EeuwC-FXYqxZdg">
+      <body>Pseudonoise is applicable too</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_uriJYGGGEeur5pVOWcaATg" annotatedElement="_ROaP8GF5EeuwC-FXYqxZdg">
+      <body>HDF5 file format?</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ROaP8GF5EeuwC-FXYqxZdg" name="Project_Data">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jPOfImF7EeuwC-FXYqxZdg" name="project information" type="_jIX7IGF5EeuwC-FXYqxZdg" aggregation="composite" association="_jPN4EGF7EeuwC-FXYqxZdg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jPPGMGF7EeuwC-FXYqxZdg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jPPGMWF7EeuwC-FXYqxZdg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kDbjQmF7EeuwC-FXYqxZdg" name="recording_data" type="_ZAj9oGF5EeuwC-FXYqxZdg" aggregation="composite" association="_kDa8MGF7EeuwC-FXYqxZdg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kDcKUGF7EeuwC-FXYqxZdg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kDcKUWF7EeuwC-FXYqxZdg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZAj9oGF5EeuwC-FXYqxZdg" name="Recording_Data">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hEDoEGF7EeuwC-FXYqxZdg" name="results" type="_GcON0GF7EeuwC-FXYqxZdg" aggregation="composite" association="_hEAkwGF7EeuwC-FXYqxZdg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hEGEUGF7EeuwC-FXYqxZdg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hEGrYGF7EeuwC-FXYqxZdg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iH-jMmF7EeuwC-FXYqxZdg" name="recording info" type="_JqcdUGF7EeuwC-FXYqxZdg" aggregation="composite" association="_iH98IGF7EeuwC-FXYqxZdg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iH_KQGF7EeuwC-FXYqxZdg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iH_KQWF7EeuwC-FXYqxZdg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jIX7IGF5EeuwC-FXYqxZdg" name="Project information"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GcON0GF7EeuwC-FXYqxZdg" name="results"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JqcdUGF7EeuwC-FXYqxZdg" name="recording info"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VB-9UGF7EeuwC-FXYqxZdg" name="Processed data"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hEAkwGF7EeuwC-FXYqxZdg" memberEnd="_hEDoEGF7EeuwC-FXYqxZdg _hEGrYWF7EeuwC-FXYqxZdg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hECZ8GF7EeuwC-FXYqxZdg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hECZ8WF7EeuwC-FXYqxZdg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_hEGrYWF7EeuwC-FXYqxZdg" name="recording_data" type="_ZAj9oGF5EeuwC-FXYqxZdg" association="_hEAkwGF7EeuwC-FXYqxZdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_iH98IGF7EeuwC-FXYqxZdg" memberEnd="_iH-jMmF7EeuwC-FXYqxZdg _iH_KQmF7EeuwC-FXYqxZdg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iH-jMGF7EeuwC-FXYqxZdg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iH-jMWF7EeuwC-FXYqxZdg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_iH_KQmF7EeuwC-FXYqxZdg" name="recording_data" type="_ZAj9oGF5EeuwC-FXYqxZdg" association="_iH98IGF7EeuwC-FXYqxZdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jPN4EGF7EeuwC-FXYqxZdg" memberEnd="_jPOfImF7EeuwC-FXYqxZdg _jPPGMmF7EeuwC-FXYqxZdg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jPOfIGF7EeuwC-FXYqxZdg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jPOfIWF7EeuwC-FXYqxZdg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_jPPGMmF7EeuwC-FXYqxZdg" name="project_data" type="_ROaP8GF5EeuwC-FXYqxZdg" association="_jPN4EGF7EeuwC-FXYqxZdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kDa8MGF7EeuwC-FXYqxZdg" memberEnd="_kDbjQmF7EeuwC-FXYqxZdg _kDcKUmF7EeuwC-FXYqxZdg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kDbjQGF7EeuwC-FXYqxZdg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kDbjQWF7EeuwC-FXYqxZdg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_kDcKUmF7EeuwC-FXYqxZdg" name="project_data" type="_ROaP8GF5EeuwC-FXYqxZdg" association="_kDa8MGF7EeuwC-FXYqxZdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Constraint" xmi:id="_65NWQGF9EeuwC-FXYqxZdg" name="Noise repeatebility">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_IA9PoGF-EeuwC-FXYqxZdg">
+        <body>Noise should be repeateble during a project</body>
+      </ownedComment>
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_65OkYGF9EeuwC-FXYqxZdg" name="constraintSpec">
+        <language>OCL</language>
+        <body>true</body>
+      </specification>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Ofuo8LQgEeyMRP-BEObGtA" name="old_setup_data">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_57A_8GGOEeur5pVOWcaATg">
+      <body>time processing functions:&#xD;
+- RMS&#xD;
+- filtering (moving AVG)&#xD;
+(- Weighting functions)&#xD;
+- delay time&#xD;
+- RT60&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_pHoQYGGQEeur5pVOWcaATg">
+      <body>recording:&#xD;
+- repeats&#xD;
+- silence measuring - https://stackoverflow.com/questions/57026255/how-to-code-consumer-producer-with-python-asyncio&#xD;
+- </body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_4Tv1QGGQEeur5pVOWcaATg">
+      <body>frequency processing:&#xD;
+- windowing (incl overlap characteristics)&#xD;
+- spectra (AS, PS, SD, PSD)&#xD;
+- transforms -> FFT: Re+Im / Mag+Ph, STFT, N-bands&#xD;
+- Transfer&#xD;
+- impulse response&#xD;
+(- Weighting functions)</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_DdMO4GGREeur5pVOWcaATg">
+      <body>graphical:&#xD;
+- time - linear / logaritmic&#xD;
+- Frequency - spectra&#xD;
+- Frequency N-bands&#xD;
+- Frequency, time - STFT&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_sLOCIGIdEeuZsOTINC7GPA">
+      <body>Signal generation:&#xD;
+- linear sweep generation&#xD;
+- log sweep generation&#xD;
+- white noise&#xD;
+- pink noise&#xD;
+- red noise (?)&#xD;
+- brown noise (?)&#xD;
+- pseudo random noise</body>
+    </ownedComment>
+  </packagedElement>
+</uml:Model>
