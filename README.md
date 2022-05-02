@@ -4,7 +4,7 @@ Meas MkII
 The project introduction
 ------------------------
 
-Meas is a project i started to understand more about the concepts of programming, accoustics and sound processing.
+[Meas](https://github.com/Jee-Bee/Meas "Meas") is a project i started to understand more about the concepts of programming, accoustics and sound processing.
 In Meas MkII i add the understanding of UML diagramming.
 
 Installing
